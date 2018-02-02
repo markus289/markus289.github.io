@@ -1,0 +1,13 @@
+title: "markus8191"
+url: "https://markus8191.de"
+collections:
+    notes:
+        output: true
+        permalink: /:collection/:name/
+    recipes:
+        output: true
+        permalink: /:collection/:name/
+theme: jekyll-theme-hacker
+markdown: kramdown
+plugins:
+    - jekyll-seo-tag
