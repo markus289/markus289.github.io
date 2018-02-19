@@ -5,8 +5,8 @@ title: Firefox
 
 # {{ page.title }}
 
-Extensions
-----------
+Add-ons
+-------
 
 - [Autoplay No More](https://addons.mozilla.org/en-US/firefox/addon/autoplay-no-more/)
 - [Google search link fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/)
