@@ -16,11 +16,8 @@ Extensions
 - [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
 - [Pinboard Pin](https://addons.mozilla.org/de/firefox/addon/pinboard-pin/)
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+- [Vimium-FF](https://addons.mozilla.org/en-GB/firefox/addon/vimium-ff/)
 - [Youtube's Annotations No More](https://addons.mozilla.org/en-US/firefox/addon/youtubes-annotations-no-more/)
-
-### Legacy (Firefox <57)
-
-- [VimFx](https://addons.mozilla.org/en-US/firefox/addon/vimfx/)
 
 Show all cookies
 ----------------
