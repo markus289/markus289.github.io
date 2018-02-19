@@ -5,8 +5,7 @@ title: Firefox
 
 # {{ page.title }}
 
-Add-ons
--------
+## Add-ons
 
 - [Autoplay No More](https://addons.mozilla.org/en-US/firefox/addon/autoplay-no-more/)
 - [Google search link fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/)
@@ -19,13 +18,11 @@ Add-ons
 - [Vimium-FF](https://addons.mozilla.org/en-GB/firefox/addon/vimium-ff/)
 - [Youtube's Annotations No More](https://addons.mozilla.org/en-US/firefox/addon/youtubes-annotations-no-more/)
 
-Show all cookies
-----------------
+## Show all cookies
 
     chrome://browser/content/preferences/cookies.xul
 
-Settings
---------
+## Settings
 
 All settings are applied in `about:config`.
 
