@@ -34,6 +34,14 @@ Disable location sharing:
 
     geo.enabled = false
 
+Disable WebRTC/PeerConnection:
+
+    media.peerconnection.enabled = false
+
+Disable Pocket:
+
+    extensions.pocket.enabled = false
+
 Don't use internal DNS cache (will use OS cache after change):
 
     network.dnsCacheExpiration = 0
@@ -42,14 +50,6 @@ Don't use internal DNS cache (will use OS cache after change):
 Disable trimming of URLs:
 
     browser.urlbar.trimURLs = false
-
-Disable WebRTC/PeerConnection:
-
-    media.peerconnection.enabled = false
-
-Disable Pocket:
-
-    extensions.pocket.enabled = false
 
 Disable popup asking to allow notifications:
 
