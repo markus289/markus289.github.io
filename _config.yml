@@ -1,5 +1,6 @@
 title: "markus8191"
 url: "https://markus8191.de"
+
 collections:
     notes:
         output: true
@@ -7,5 +8,16 @@ collections:
     recipes:
         output: true
         permalink: /:collection/:name/
+
+exclude:
+    - deploy.sh
+    - Gemfile
+    - Gemfile.lock
+    - node_modules
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
+
 theme: jekyll-theme-hacker
 markdown: kramdown
