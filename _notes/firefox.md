@@ -7,16 +7,16 @@ title: Firefox
 
 ## Add-ons
 
-- [Autoplay No More](https://addons.mozilla.org/en-US/firefox/addon/autoplay-no-more/)
-- [Google search link fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/)
-- [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
-- [I don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/)
-- [MultiPass](https://addons.mozilla.org/en-US/firefox/addon/multipass/)
-- [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
-- [Pinboard Pin](https://addons.mozilla.org/de/firefox/addon/pinboard-pin/)
-- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [Vimium-FF](https://addons.mozilla.org/en-GB/firefox/addon/vimium-ff/)
-- [Youtube's Annotations No More](https://addons.mozilla.org/en-US/firefox/addon/youtubes-annotations-no-more/)
+- [Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)
+- [Google search link fix](https://addons.mozilla.org/firefox/addon/google-search-link-fix/)
+- [HTTPS Everywhere](https://addons.mozilla.org/firefox/addon/https-everywhere/)
+- [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
+- [MultiPass](https://addons.mozilla.org/firefox/addon/multipass/)
+- [NoScript](https://addons.mozilla.org/firefox/addon/noscript/)
+- [Pinboard Pin](https://addons.mozilla.org/firefox/addon/pinboard-pin/)
+- [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+- [Vimium-FF](https://addons.mozilla.org/firefox/addon/vimium-ff/)
+- [Youtube's Annotations No More](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)
 
 ## Show all cookies
 
