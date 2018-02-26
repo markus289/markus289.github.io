@@ -26,7 +26,7 @@ title: Firefox
 
 All settings are applied in `about:config`.
 
-New Window opens the New Tab site:
+New Window opens the New Tab page:
 
     browser.startup.homepage = about:newtab
 
