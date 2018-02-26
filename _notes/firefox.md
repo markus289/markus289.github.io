@@ -42,7 +42,7 @@ Disable Pocket:
 
     extensions.pocket.enabled = false
 
-Don't use internal DNS cache (will use OS cache after change):
+Don't use internal DNS cache, i.e., only use OS cache:
 
     network.dnsCacheExpiration = 0
     network.dnsCacheExpirationGracePeriod = 0
