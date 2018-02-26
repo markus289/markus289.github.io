@@ -8,6 +8,7 @@ title: Firefox
 ## Add-ons
 
 - [Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)
+- [DuckDuckGo (HTML SSL)](https://addons.mozilla.org/firefox/addon/duckduckgo-html/)
 - [Google search link fix](https://addons.mozilla.org/firefox/addon/google-search-link-fix/)
 - [HTTPS Everywhere](https://addons.mozilla.org/firefox/addon/https-everywhere/)
 - [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
