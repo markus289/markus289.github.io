@@ -26,10 +26,9 @@ title: Firefox
 
 All settings are applied in `about:config`.
 
-Turn off new tab page:
+New Window opens the New Tab site:
 
-    browser.newtabpage.enabled = false
-    browser.startup.homepage = about:blank
+    browser.startup.homepage = about:newtab
 
 Disable location sharing:
 
@@ -44,17 +43,6 @@ Disable trimming of URLs:
 
     browser.urlbar.trimURLs = false
 
-Disable internal PDF viewer:
-
-    pdfjs.disabled = true
-
-If you don't want to store your history, then you might also want to
-disable the cache:
-
-    browser.cache.memory.enable = false
-    browser.cache.disk.enable = false
-    browser.cache.offline.enable = false
-
 Disable WebRTC/PeerConnection:
 
     media.peerconnection.enabled = false
@@ -67,14 +55,6 @@ Disable popup asking to allow notifications:
 
     dom.webnotifications.enabled = false
 
-Prevent last window from closing the browser (useful for macOS full screen):
-
-    browser.tabs.closeWindowWithLastTab = false
-
-Load new URLs in background:
-
-    browser.tabs.loadDivertedInBackground = true
-
 Disable menu toggle on pressing the *Alt* key:
 
     ui.key.menuAccessKeyFocuses = false
@@ -83,6 +63,28 @@ Disable the delay for the *Ok* button from the download dialog:
 
     security.dialog_enable_delay = 0
 
+### Maybe Settings
+
+Disable internal PDF viewer:
+
+    pdfjs.disabled = true
+
+If you don't want to store your history, then you might also want to
+disable the cache:
+
+    browser.cache.memory.enable = false
+    browser.cache.disk.enable = false
+    browser.cache.offline.enable = false
+
+Prevent last window from closing the browser (useful for macOS full screen):
+
+    browser.tabs.closeWindowWithLastTab = false
+
+Load new URLs in background:
+
+    browser.tabs.loadDivertedInBackground = true
+
 Disable autoplay of videos:
 
     media.autoplay.enabled = false
+
