@@ -66,6 +66,14 @@ Disable the delay for the *Ok* button from the download dialog:
 
 ### Maybe Settings
 
+Smaller title bar:
+
+    browser.tabs.drawInTitlebar = true
+
+Disable auto completion in URL bar:
+
+    browser.urlbar.autocomplete.enabled = false
+
 Disable internal PDF viewer:
 
     pdfjs.disabled = true
