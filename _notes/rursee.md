@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fedora Linux
+title: Rursee
 ---
 
 # {{ page.title }}
