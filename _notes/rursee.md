@@ -23,3 +23,4 @@ title: Rursee
 - Zahnpasta
 - Messer
 - Taschenlampe
+- Toilettenpapier
