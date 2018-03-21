@@ -4,6 +4,8 @@ title:  "Put Things Into The World"
 date:   2016-08-06 16:28:51 +0200
 ---
 
+# {{ page.title }}
+
 [Ben Horowitz](http://www.bhorowitz.com/about) gave a [speech](https://a16z.com/2015/05/28/some-career-advice-for-all-you-recent-graduates/)
 to the Columbia University’s class of 2015.
 Watch the video or read the transcript if you have the time.
