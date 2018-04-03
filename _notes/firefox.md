@@ -8,16 +8,20 @@ title: Firefox
 ## Add-ons
 
 - [Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)
-- [DuckDuckGo (HTML SSL)](https://addons.mozilla.org/firefox/addon/duckduckgo-html/)
 - [Google search link fix](https://addons.mozilla.org/firefox/addon/google-search-link-fix/)
 - [HTTPS Everywhere](https://addons.mozilla.org/firefox/addon/https-everywhere/)
 - [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
-- [MultiPass](https://addons.mozilla.org/firefox/addon/multipass/)
-- [NoScript](https://addons.mozilla.org/firefox/addon/noscript/)
 - [Pinboard Pin](https://addons.mozilla.org/firefox/addon/pinboard-pin/)
 - [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)
 - [Vimium-FF](https://addons.mozilla.org/firefox/addon/vimium-ff/)
 - [Youtube's Annotations No More](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)
+
+## Vimium
+
+Custom key mappings.
+
+    map J nextTab
+    map K previousTab
 
 ## Show all cookies
 
@@ -64,15 +68,15 @@ Disable the delay for the *Ok* button from the download dialog:
 
     security.dialog_enable_delay = 0
 
+Disable auto completion in URL bar:
+
+    browser.urlbar.autocomplete.enabled = false
+
 ### Maybe Settings
 
 Smaller title bar:
 
     browser.tabs.drawInTitlebar = true
-
-Disable auto completion in URL bar:
-
-    browser.urlbar.autocomplete.enabled = false
 
 Disable internal PDF viewer:
 
