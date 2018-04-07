@@ -7,6 +7,7 @@ title: Rursee
 
 ## Packliste
 
+- Schlüssel
 - Spannbettbezug
 - Schlafsack
 - Essen
