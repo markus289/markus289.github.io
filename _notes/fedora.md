@@ -18,6 +18,7 @@ Using sytemd-networkd
     [DHCP]
     ClientIdentifier=mac
     EOF
+    systemctl disable network
     systemctl disable NetworkManager
     dnf remove NetworkManager
     systemctl enable systemd-networkd
