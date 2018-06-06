@@ -26,8 +26,7 @@ On macOS you may add this to `/etc/zprofile`.
     [[ -n ${NO_SYSTEM_CONDA} || -f ~/.hushlogin ]] && _profile_hushlogin=1
 
     if [[ -z $_profile_hushlogin && -f /opt/miniconda/etc/profile.d/conda.sh ]]; then
-            source /opt/miniconda/etc/profile.d/conda.sh
-        fi
+        source /opt/miniconda/etc/profile.d/conda.sh
     fi
 
     unset _profile_hushlogin
