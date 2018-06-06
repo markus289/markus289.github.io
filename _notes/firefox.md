@@ -64,10 +64,6 @@ Disable menu toggle on pressing the *Alt* key:
 
     ui.key.menuAccessKeyFocuses = false
 
-Disable the delay for the *Ok* button from the download dialog:
-
-    security.dialog_enable_delay = 0
-
 Disable auto completion in URL bar:
 
     browser.urlbar.autocomplete.enabled = false
@@ -100,4 +96,3 @@ Load new URLs in background:
 Disable autoplay of videos:
 
     media.autoplay.enabled = false
-
