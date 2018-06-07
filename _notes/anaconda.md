@@ -34,3 +34,40 @@ On macOS you may add this to `/etc/zprofile`.
 If some user does not want to use the system provided Anaconda, then he may add this to `~/.zshenv`.
 
     NO_SYSTEM_CONDA=1
+
+## Periodically update miniconda base install
+
+Create `/etc/systemd/system/conda-update.service` as follows.
+
+    [Unit]
+    Description=Miniconda update (oneshot)
+    Wants=network-online.target
+
+    [Service]
+    Type=oneshot
+    ExecStart=/opt/miniconda/bin/conda update -n base --all -y
+
+Create `/etc/systemd/system/conda-update.timer` as follows.
+
+    [Unit]
+    Description=Daily update of Miniconda
+
+    [Timer]
+    # once a day, at 2AM
+    OnCalendar=*-*-* 02:00:00
+    # Be kind to the Let's Encrypt servers: add a random delay of 0–3600 seconds
+    RandomizedDelaySec=3600
+    Persistent=true
+
+    [Install]
+    WantedBy=timers.target
+
+Enable and start the timer.
+
+    # systemctl enable conda-update.timer
+    # systemctl start conda-update.timer
+
+Status can be checked with `systemctl` and `journalctl`.
+
+    # systemctl list-timers [--all]
+    # journalctl -u conda-update
