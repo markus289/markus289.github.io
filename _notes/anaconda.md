@@ -55,7 +55,7 @@ Create `/etc/systemd/system/conda-update.timer` as follows.
     [Timer]
     # once a day, at 2AM
     OnCalendar=*-*-* 02:00:00
-    # Be kind to the Let's Encrypt servers: add a random delay of 0–3600 seconds
+    # Be kind to the servers: add a random delay of up to an hour (0–3600 seconds)
     RandomizedDelaySec=3600
     Persistent=true
 
