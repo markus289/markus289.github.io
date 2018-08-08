@@ -49,6 +49,7 @@ Disable Pocket:
 
 Don't use internal DNS cache, i.e., only use OS cache:
 
+    network.dnsCacheEntries = 0
     network.dnsCacheExpiration = 0
     network.dnsCacheExpirationGracePeriod = 0
 
