@@ -61,6 +61,10 @@ Disable popup asking to allow notifications:
 
     dom.webnotifications.enabled = false
 
+Disable `Enable DRM`-bar:
+
+    browser.eme.ui.enabled = false
+
 Disable menu toggle on pressing the *Alt* key:
 
     ui.key.menuAccessKeyFocuses = false
