@@ -27,7 +27,7 @@ done
 
 unset p
 
-edo bundle install
+edo bundle install --path vendor/bundle
 edo bundle exec jekyll build
 edo find _site -type d -exec chmod 755 {} \;
 edo find _site -type f -exec chmod 644 {} \;
