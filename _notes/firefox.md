@@ -33,7 +33,7 @@ All settings are applied in `about:config`.
 
 New Window opens the New Tab page:
 
-    browser.startup.homepage = about:newtab
+    browser.startup.homepage = about:blank
 
 Disable location sharing:
 
