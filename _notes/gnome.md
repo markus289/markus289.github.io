@@ -43,6 +43,8 @@ Allow `F10` to be used in for example `mc`.
 gnome-keyring-daemon
 --------------------
 
+*Note: As of GNOME 3.28 this is no longer true.*
+
 The `gnome-keyring-daemon` does not support ED25519 keys, so disable it and use `keychain` to start the default `ssh-agent`.
 
     $ sudo ln -sf /dev/null /etc/xdg/autostart/gnome-keyring-ssh.desktop
