@@ -14,7 +14,7 @@ currently is set as follows.
     $ gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+altgr-intl')]"
     $ gsettings set org.gnome.desktop.input-sources xkb-options "['lv3:caps_switch', 'nodeadkeys']"
 
-Compare with [X11](x11.html).
+Compare with [X11](/notes/x11/).
 
 Switching windows
 -----------------
