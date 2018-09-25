@@ -13,7 +13,7 @@ title: Anaconda
     # bash Miniconda3-latest-Linux-x86_64.sh -b -p /opt/miniconda
 
 `-b` denotes batch mode.
-`-p` is the prefix for intsallation.
+`-p` is the prefix for installation.
 
 ## Load conda system wide
 
