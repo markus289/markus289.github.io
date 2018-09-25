@@ -31,7 +31,7 @@ Custom key mappings.
 
 All settings are applied in `about:config`.
 
-New Window opens the New Tab page:
+New Window opens a blank page:
 
     browser.startup.homepage = about:blank
 
