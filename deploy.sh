@@ -33,4 +33,4 @@ edo find _site -type d -exec chmod 755 {} \;
 edo find _site -type f -exec chmod 644 {} \;
 edo rsync -av --partial --progress --delete _site/ ${REMOTE_HOST}:${REMOTE_DIRECTORY}
 edo ssh ${REMOTE_HOST} chmod -R go-rwx ${REMOTE_DIRECTORY}
-edo ssh ${REMOTE_HOST} setfacl -Rm u:nginx:rwX ${REMOTE_DIRECTORY}
+edo ssh ${REMOTE_HOST} setfacl -Rm u:nginx:rX ${REMOTE_DIRECTORY}
