@@ -35,6 +35,10 @@ Use the dark theme variant (no longer required).
 
     $ gsettings set org.gnome.Terminal.Legacy.Settings dark-theme true
 
+Instead of the above, use this with GNOME `3.22`, Debian 9 (Strech).
+
+    $ gsettings set org.gnome.Terminal.Legacy.Settings theme-variant dark
+
 Allow `F10` to be used in for example `mc`.
 
     $ gsettings set org.gnome.Terminal.Legacy.Settings menu-accelerator-enabled false
