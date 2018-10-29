@@ -43,6 +43,12 @@ Allow `F10` to be used in for example `mc`.
 
     $ gsettings set org.gnome.Terminal.Legacy.Settings menu-accelerator-enabled false
 
+Desktop icons
+-------------
+
+Desktop icons can be disabled as follows.
+
+    $ gsettings set org.gnome.desktop.background show-desktop-icons false
 
 gnome-keyring-daemon
 --------------------
