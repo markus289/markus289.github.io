@@ -70,10 +70,6 @@ Disable menu toggle on pressing the *Alt* key:
 
     ui.key.menuAccessKeyFocuses = false
 
-Disable auto completion in URL bar:
-
-    browser.urlbar.autocomplete.enabled = false
-
 ### Maybe Settings
 
 Smaller title bar:
