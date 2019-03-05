@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-REMOTE_HOST=doxy.wai9.site
-REMOTE_DIRECTORY=/var/www/wai9.site
+REMOTE_HOST=host.markus9445.com
+REMOTE_DIRECTORY=/var/www/markus9445.com
 
 edo()
 {
