@@ -10,6 +10,7 @@ Useful extensions
 
 - [Auto History Wipe](https://chrome.google.com/webstore/detail/hdgnienkeomlaeeojaibeicglpoaadnj)
 - [Autoplay No More](https://chrome.google.com/webstore/detail/obiogedpmdnfaldjdjmnbpmhjjfnghnj)
+- [Block image](https://chrome.google.com/webstore/detail/block-image/pehaalcefcjfccdpbckoablngfkfgfgj)
 - [cookies.txt](https://chrome.google.com/webstore/detail/njabckikapfpffapmjgojcnbfjonfjfg)
 - [Empty New Tab Page](https://chrome.google.com/webstore/detail/dpjamkmjmigaoobjbekmfgabipmfilij)
 - [HTTPS Everywhere](https://chrome.google.com/webstore/detail/gcbommkclmclpchllfjekcdonpmejbdp)
