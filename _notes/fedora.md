@@ -10,7 +10,7 @@ Using sytemd-networkd
 
     cat << EOF > /etc/systemd/network/80-dhcp.network
     [Match]
-    Name=en*
+    Name=en* wl*
 
     [Network]
     DHCP=yes
