@@ -21,3 +21,10 @@ You can remap the action in `File -> Settings -> Keymap -> Other -> Show Intenti
 [(Source)](https://android.stackexchange.com/questions/45502/how-to-add-timezone-to-world-clock-when-you-dont-know-the-city) You need to be root.
 
     setprop persist.sys.timezone "UTC"
+
+## Boot into TWRP without flashing
+
+This gives you root for setting the time zone as described above.
+
+    adb reboot bootloader
+    fastboot boot twrp.img
