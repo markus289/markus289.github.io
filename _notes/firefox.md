@@ -7,6 +7,7 @@ title: Firefox
 
 ## Add-ons
 
+- [Add custom search engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/)
 - [Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)
 - [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader/)
 - [Google search link fix](https://addons.mozilla.org/firefox/addon/google-search-link-fix/)
