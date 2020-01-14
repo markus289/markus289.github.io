@@ -74,6 +74,14 @@ Disable menu toggle on pressing the *Alt* key:
 
 ### Maybe Settings
 
+Disable WebGL:
+
+    webgl.disabled = true
+
+Enable Resist fingerprinting mode:
+
+    privacy.resistFingerprinting = true
+
 Smaller title bar:
 
     browser.tabs.drawInTitlebar = true
