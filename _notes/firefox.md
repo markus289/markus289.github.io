@@ -72,6 +72,14 @@ Disable menu toggle on pressing the *Alt* key:
 
     ui.key.menuAccessKeyFocuses = false
 
+
+### Firefox on NVIDIA *and* GNOME *and* X11
+
+[Mozilla Bug #1558065](https://bugzilla.mozilla.org/show_bug.cgi?id=1558065#c2)
+
+    layers.acceleration.force-enabled = true
+    gfx.webrender.all = true
+
 ### Maybe Settings
 
 Disable WebGL:
