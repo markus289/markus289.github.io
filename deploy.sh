@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-REMOTE_HOST=host.markus9445.com
-REMOTE_DIRECTORY=/var/www/markus9445.com
+REMOTE_HOST=doxy.rite.cc
+REMOTE_DIRECTORY=/var/www/www.rite.cc
 
 edo()
 {
@@ -31,6 +31,13 @@ edo bundle install --path vendor/bundle
 edo bundle exec jekyll build
 edo find _site -type d -exec chmod 755 {} \;
 edo find _site -type f -exec chmod 644 {} \;
-edo rsync -av --partial --progress --delete _site/ ${REMOTE_HOST}:${REMOTE_DIRECTORY}
-edo ssh ${REMOTE_HOST} chmod -R go-rwx ${REMOTE_DIRECTORY}
-edo ssh ${REMOTE_HOST} setfacl -Rm u:nginx:rX ${REMOTE_DIRECTORY}
+
+if [ ${HOSTNAME} = $(echo ${REMOTE_HOST}|cut -d '.' -f 1) ]; then
+    edo rsync -av --partial --progress --delete _site/ ${REMOTE_DIRECTORY}
+    edo chmod -R go-rwx ${REMOTE_DIRECTORY}
+    edo setfacl -Rm u:nginx:rX ${REMOTE_DIRECTORY}
+else
+    edo rsync -av --partial --progress --delete _site/ ${REMOTE_HOST}:${REMOTE_DIRECTORY}
+    edo ssh ${REMOTE_HOST} chmod -R go-rwx ${REMOTE_DIRECTORY}
+    edo ssh ${REMOTE_HOST} setfacl -Rm u:nginx:rX ${REMOTE_DIRECTORY}
+fi
