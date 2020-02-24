@@ -3,13 +3,13 @@ layout: default
 title: Joghurtkuchen
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Zubereitungszeit
+### Zubereitungszeit
 
 ca. 20 Minuten (plus Back- und Abkühlzeit)
 
-## Zutaten für 1 Springform
+### Zutaten für 1 Springform
 
 - 500g Joghurt
 - 4 Eier
@@ -22,14 +22,14 @@ ca. 20 Minuten (plus Back- und Abkühlzeit)
 - 50g Puderzucker
 - Fett für die Form
 
-## Nährwerte pro Stück
+### Nährwerte pro Stück
 
 - ca. 476 kcal/1998 kJ
 - 8g Eiweiß
 - 13g Fett
 - 81g Kohlenhydrate
 
-## Zubereitung
+### Zubereitung
 
 Den Backofen auf 175°C (Umluft 150°C) vorheizen.
 
@@ -49,6 +49,6 @@ Den Kuchen etwas abkühlen lassen, dann aus der Form lösen. Den
 Zuckersirup darüberträufeln und abkühlen lassen. Den Kuchen in Stücke
 schneiden und mit dem Puderzucker bestreuen.
 
-## Tipp
+### Tipp
 
 Dekorieren Sie den Kuchen mit Joghurtklecksen und Orangenstückchen.

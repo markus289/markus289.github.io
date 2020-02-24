@@ -3,15 +3,15 @@ layout: default
 title: Let's Encrypt
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-# Certificate management
+### Certificate management
 
-## Create an account
+#### Create an account
 
     certbot register --email letsencrypt@domain.tld
 
-## Apply and receive a certificate using webroot plugin
+#### Apply and receive a certificate using webroot plugin
 
 See below for an nginx configuration.
 
@@ -19,19 +19,19 @@ See below for an nginx configuration.
 
 Apply for a certificate containing more domains by adding `-d other.domain.tld` to the end.
 
-## List certificates
+#### List certificates
 
     certbot certificates
 
-## Renew certificates
+#### Renew certificates
 
     certbot renew
 
-## Delete a certificate
+#### Delete a certificate
 
     certbot delete --cert-name some.domain.tld
 
-# nginx configuration for initial certificate generation
+### nginx configuration for initial certificate generation
 
     server {
         listen 80 default_server;
@@ -45,7 +45,7 @@ Apply for a certificate containing more domains by adding `-d other.domain.tld` 
         root /var/www/some/directory;
     }
 
-# Automatic renewal using a systemd timer
+### Automatic renewal using a systemd timer
 
 `/etc/systemd/system/letsencrypt-renew.service`
 

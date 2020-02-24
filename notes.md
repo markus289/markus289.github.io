@@ -4,7 +4,7 @@ title: Notes
 permalink: /notes/
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 <ul>
 {% assign notes = site.notes | sort_natural: 'title' %}

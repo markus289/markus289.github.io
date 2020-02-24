@@ -3,10 +3,9 @@ layout: default
 title: vim
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Using digraphs (special characters)
------------------------------------
+### Using digraphs (special characters)
 
 To type a special character, hit `Ctrl-k` in insert mode and type
 two-character code. List the availale characters:

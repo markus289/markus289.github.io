@@ -3,9 +3,9 @@ layout: default
 title: Sardinensoße für Spaghetti
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Zutaten für zwei Portionen
+### Zutaten für zwei Portionen
 
 - 1 Dose Sardinen ohne Haut und ohne Gräten
 - 1 Becher Crème fraîche
@@ -13,7 +13,7 @@ title: Sardinensoße für Spaghetti
 - Knoblauch
 - Salz
 
-## Zubereitung
+### Zubereitung
 
 1. Das Öl der Sardinen wegschütten und die Sardinen etwas klein matschen.
 2. Sardinen mit Crème fraîche mischen.

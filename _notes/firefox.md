@@ -3,22 +3,22 @@ layout: default
 title: Firefox
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Add-ons
+### Add-ons
 
 - [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
 - [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)
 - [Vimium-FF](https://addons.mozilla.org/firefox/addon/vimium-ff/)
 
-### Vimium
+#### Vimium
 
 Custom key mappings.
 
     map J nextTab
     map K previousTab
 
-## Maybe Add-ons
+### Maybe Add-ons
 
 - [Add custom search engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/)
 - [Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)
@@ -29,7 +29,7 @@ Custom key mappings.
 - [Pinboard Pin](https://addons.mozilla.org/firefox/addon/pinboard-pin/)
 - [Youtube's Annotations No More](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)
 
-## Settings
+### Settings
 
 All settings are applied in `about:config`.
 
@@ -57,14 +57,14 @@ Disable `Enable DRM`-bar:
 
     browser.eme.ui.enabled = false
 
-### Firefox on NVIDIA *and* GNOME *and* X11
+#### Firefox on NVIDIA *and* GNOME *and* X11
 
 [Mozilla Bug #1558065](https://bugzilla.mozilla.org/show_bug.cgi?id=1558065#c2)
 
     layers.acceleration.force-enabled = true
     gfx.webrender.all = true
 
-### Maybe Settings
+#### Maybe Settings
 
 Disable menu toggle on pressing the *Alt* key:
 

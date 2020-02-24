@@ -3,10 +3,9 @@ layout: default
 title: cryptsetup
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Encrypting a partiton
----------------------
+### Encrypting a partiton
 
 (Optional) Generate a keyfile:
 

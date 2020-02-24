@@ -3,13 +3,13 @@ layout: default
 title: MATLAB
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Disable Tooltip Keybinding:
 
     >> com.mathworks.desktop.mnemonics.MnemonicsManagers.get.disable
 
-## Getting CVX
+### Getting CVX
 
 [CVX](http://cvxr.com/cvx/) can be installed as follows.
 

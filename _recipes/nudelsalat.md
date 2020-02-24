@@ -3,7 +3,7 @@ layout: default
 title: Nudelsalat
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 - 500g Nudeln
 - 1 Dose Erbsen (kleine Dose)

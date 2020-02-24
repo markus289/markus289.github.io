@@ -3,11 +3,11 @@ layout: default
 title: Kochkurs 2008
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Rezepte 11.11.2008
+### Rezepte 11.11.2008
 
-### Bruschetta al pomodoro (Bruschetta mit Tomaten und Mozzarella)
+#### Bruschetta al pomodoro (Bruschetta mit Tomaten und Mozzarella)
 
 2 Personen
 
@@ -22,7 +22,7 @@ Tomate, Mozzarella und Basilikum klein schneiden und auf dem Brot
 anrichten. Salz und Olivenöl darüber. In den Backofen bei 200°C backen
 bis der Käse schmilzt.
 
-### Scaloppine al vino bianco (Scaloppine mit Weißweinsause)
+#### Scaloppine al vino bianco (Scaloppine mit Weißweinsause)
 
 2 Personen
 
@@ -42,7 +42,7 @@ und die geschnittene Petersilie dazugeben.
 
 Das Fleisch auf den Tellern anrichten. Mit Pfeffer und Salz bestreuen.
 
-### Patate del contadino (Kartoffeln Bauernart)
+#### Patate del contadino (Kartoffeln Bauernart)
 
 2 Personen
 
@@ -59,7 +59,7 @@ darauf streuen und die Knoblauchsauce auf den Kartoffeln verteilen.
 Wasser dazugeben. Nach etwa 15 Minuten die Kartoffeln mit einer Gabel
 auf Garheit prüfen.
 
-### Peperonata (geschmortes Gemüse)
+#### Peperonata (geschmortes Gemüse)
 
 2 Personen
 
@@ -80,7 +80,7 @@ hinzugeben. Knoblauchsauce (wie bei den Kartoffeln) darauf verteilen.
 Salz hinzugeben. Etwas Wasser in die Pfanne geben. Wenn das Gemüse gar
 ist, frisch geschnittene Petersilie darauf streuen.
 
-### Orangenscheiben mit Vanilleeis
+#### Orangenscheiben mit Vanilleeis
 
 2 Personen
 
@@ -94,9 +94,9 @@ Die Orangen schälen und in Scheiben schneiden. Auf einen mit Kakaopulver
 dekorierten Teller anrichten. Orangenlikör auf den Orangenscheiben
 verteilen. Das Eis und eine kleine Portion Schlagsahne dazugeben.
 
-## Rezepte 18.11.2008
+### Rezepte 18.11.2008
 
-### Insalata di ruchetta e tonno (Rucola-Salat mit Thunfisch)
+#### Insalata di ruchetta e tonno (Rucola-Salat mit Thunfisch)
 
 2 Personen
 
@@ -122,7 +122,7 @@ scheiden und auf dem Rucola verteilen. Den Thunfisch in Stücke, die
 Sardellen, die Oliven und die getrockneten Tomate dazugeben. Die
 Gewürzmischung darauf verteilen.
 
-### Fusilli al ragu di carne mista in salsa rosa (Fusilli mit Fleischragout in Tomaten-Sahnesauce)
+#### Fusilli al ragu di carne mista in salsa rosa (Fusilli mit Fleischragout in Tomaten-Sahnesauce)
 
 2 Personen
 
@@ -153,7 +153,7 @@ Parmesan würzen.
 Anmerkung: Manchmal ist es empfehlenswert ein Löffelchen Zucker in die
 Sauce zu geben. Manchmal sind die Tomaten etwas sauer.
 
-### Ananas colada (Ananas mit Rum und Orangenlikör in Kokosmilch)
+#### Ananas colada (Ananas mit Rum und Orangenlikör in Kokosmilch)
 
 - 4 Scheiben Ananas (frisch)
 - 2 Esslöffel Rum
@@ -164,13 +164,13 @@ Die Ananasscheiben mit Rum und Orangenlikör ziehen lassen. Eventuell
 Zucker dazugeben. Auf Tellern anrichten und Kokosmilch nach Geschmack
 darauf gießen.
 
-## Rezepte 25.11.2008
+### Rezepte 25.11.2008
 
-### Ravioli di Ricotta e Spinaci (Ravioli mit Ricotta und Spinat)
+#### Ravioli di Ricotta e Spinaci (Ravioli mit Ricotta und Spinat)
 
 4 Personen
 
-#### Teig
+##### Teig
 
 - 500 g Mehl
 - 4 Eier
@@ -184,7 +184,7 @@ leicht bemehlten Brett glatt und geschmeidig kneten. Eine Kugel formen
 und abgedeckt 30 Minuten ruhen lassen. Danach eine kleine Kugel
 schneiden und mit der Nudelmaschine in dünne Streifen ausrollen.
 
-#### Füllung
+##### Füllung
 
 - 200 g Ricotta
 - 100 g Spinat
@@ -196,7 +196,7 @@ schneiden und mit der Nudelmaschine in dünne Streifen ausrollen.
 
 Die Zutaten gut vermischen.
 
-#### Sugo di pomodori alla Panna (Tomatensauce mit Sahne)
+##### Sugo di pomodori alla Panna (Tomatensauce mit Sahne)
 
 - 1 Esslöffel Olivenöl
 - 1 Zwiebel
@@ -218,7 +218,7 @@ Ravioli in einen Topf mit sprudelndem Salzwasser und einem Esslöffel Öl
 geben und 3-4 Minuten kochen. Sieben, in eine Schüssel geben. Die Sauce
 darüber gießen und mit geriebenem Parmesan servieren.
 
-### Panna Cotta (gekochte Sahne)
+#### Panna Cotta (gekochte Sahne)
 
 4 Personen
 
@@ -234,9 +234,9 @@ beimischen. Die Gelantine unter Rühren langsam dazugeben. Weiterrühren
 bis sie aufgelöst ist. Die Mischung in einen Behälter (oder in mehrere
 kleine Behälter) geben. In Kühlschrank stellen bis es ganz kalt ist.
 
-## Rezepte 02.12.2008
+### Rezepte 02.12.2008
 
-### Passato di verdure (Gemüsecremesuppe)
+#### Passato di verdure (Gemüsecremesuppe)
 
 - 200 g Gemüse (Mischung für Minestrone, Kürbis, Zucchini, Blumenkohl,
   Spinat, Champignons etc.)
@@ -256,7 +256,7 @@ Nach dem Garen des Gemüses alles mit dem Pürierstab zu einer sämigen
 Masse verarbeiten. Mit Salz und Pfeffer herzhaft abschmecken. Die Suppe
 geht als Vorsuppe. Auf dem Teller mit Parmesan und Croutons bestreuen.
 
-### Spezzatino
+#### Spezzatino
 
 - 200 g Gulasch (Rind und Schwein)
 - 1 Möhre
@@ -285,7 +285,7 @@ Mischung geben.
 
 Spezzatino kann auch eingefroren werden.
 
-### Crêpes (Grundrezept)
+#### Crêpes (Grundrezept)
 
 - 50 g Weizenmehl
 - 10 g Butter (geschmolzen)
@@ -317,9 +317,9 @@ Fertige Crêpes bis zum Servieren im warmen Ofen (80°C) aufbewahren.
 Vor dem Servieren mit Rohrzucke, Orangensaft, Rum, Rand Marnier und fein
 geschnittenen Orangenschalen bestreuen.
 
-## Rezepte 02.12.2008
+### Rezepte 02.12.2008
 
-### Grog
+#### Grog
 
 - 100 ml Tee, schwarz (Ceylon, Assam, Earl Grey, etc.)
 - 50 ml Rum
@@ -333,7 +333,7 @@ Apfelsine kann man Zitrone oder Limette benutzen.
 
 Heiß trinken.
 
-### Linsensupper
+#### Linsensupper
 
 Zutaten für 4 Personen:
 
@@ -358,7 +358,7 @@ goldbraun braten und unter die Linsen mischen.
 
 Auf Teller servieren und mit Petersilie und Croutons garnieren.
 
-### Krustenbraten (10 Personen)
+#### Krustenbraten (10 Personen)
 
 - 3 kg Krustenbraten
 - 2 Zehen Knoblauch
@@ -392,7 +392,7 @@ einkochen lassen (eventuell mit Maizena oder Mehl binden).
 Den Braten von der Schwarteseite her in Tranchen schneiden und auf der
 Form servieren.
 
-### Arroz Brasileiro (Brasilianischer Reis)
+#### Arroz Brasileiro (Brasilianischer Reis)
 
 für 10 Personen:
 
@@ -416,7 +416,7 @@ Hitze weiterkochen lassen bis der Reis gar ist.
 (Bei Bedarf sehr kleine Mengen Wasser hinzugeben - zum Probieren immer
 Reis von der unteren Seite nehmen.)
 
-### Ofenkartoffeln (10 Personen)
+#### Ofenkartoffeln (10 Personen)
 
 - 2 kg Kartoffeln (festkochend)
 - Olivenöl, Salz, Pfeffer, Peperoncino, Oregano
@@ -428,7 +428,7 @@ mit einem bisschen Wasser bei 200°C kochen lassen. Immer wieder mit
 einer Gabel probieren, ob die Kartoffeln gar sind. Wenn nötig mehr
 Wasser dazugeben.
 
-### Pomodori Farciti Al Funghi (Tomaten gefüllt mit Champingons) (4 Personen)
+#### Pomodori Farciti Al Funghi (Tomaten gefüllt mit Champingons) (4 Personen)
 
 - 4 Tomaten (groß)
 - 250 g Champignons
@@ -454,11 +454,11 @@ Die Tomaten mit dieser Mischung füllen. Kleine Scheiben Käse auf die
 gefüllten Tomaten geben. In eine mit Öl bestrichene Form verteilen und
 im Backofen bei 180°C etwa 30 Minuten kochen lassen.
 
-### Panettone Farcito Con Crema Pasticcera E Cioccolata Fusa (Panettone mit Eiercreme und geschmolzener Schokolade)
+#### Panettone Farcito Con Crema Pasticcera E Cioccolata Fusa (Panettone mit Eiercreme und geschmolzener Schokolade)
 
 10 Personen
 
-#### Erster Teil
+##### Erster Teil
 
 Crema pasticcera (Grundrezept)
 
@@ -478,11 +478,11 @@ verdicken.
 Die Mischung erkalten lassen. Ab und zu rühren damit sich auf der
 Oberfläche keine trockene Schicht bildet.
 
-#### Zweiter Teil
+##### Zweiter Teil
 
 100 g Schokolade im Wasserbad schmelzen.
 
-#### Dritter Teil
+##### Dritter Teil
 
 Der fertig gekaufte Panettone quer in runden Scheiben schneiden. Die
 Scheiben auf Teller verteilen, mit Orangenlikör begießen und mit Crema

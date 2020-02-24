@@ -3,9 +3,9 @@ layout: default
 title: Anaconda
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Install miniconda in silent mode
+### Install miniconda in silent mode
 
 [Miniconda](https://conda.io/miniconda.html)
 
@@ -15,7 +15,7 @@ title: Anaconda
 `-b` denotes batch mode.
 `-p` is the prefix for installation.
 
-## Load conda system wide
+### Load conda system wide
 
 Edit `/etc/profile.d/conda.sh` as follows.
 Depending on your configuration, `conda` should be available for both, `bash`
@@ -35,7 +35,7 @@ If some user does not want to use the system provided Anaconda, then he may add 
 
     NO_SYSTEM_CONDA=1
 
-## Periodically update miniconda base install
+### Periodically update miniconda base install
 
 Create `/etc/systemd/system/conda-update.service` as follows.
 

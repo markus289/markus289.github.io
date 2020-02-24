@@ -3,10 +3,9 @@ layout: default
 title: Microsoft Windows
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Putting a Windows ISO on a USB drive
-------------------------------------
+### Putting a Windows ISO on a USB drive
 
 This is tested with Windows 7 and Windows 8 ISO images.
 

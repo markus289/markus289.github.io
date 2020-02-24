@@ -3,7 +3,7 @@ layout: default
 title: Burger Buns
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 [Quelle](http://www.rezeptewiki.org/wiki/Hamburger_Buns)
 
@@ -19,7 +19,7 @@ im Supermarkt für teures Geld oder besser, auch wenn etwas aufwendiger,
 selber backen. Schmeckt besser und ist zu köstlichem Rindfleisch ein
 wahrer Genuss.
 
-## Zutaten
+### Zutaten
 
 - 900 g Weizenmehl (Typ 405)
 - 40 g Speisestärke
@@ -37,7 +37,7 @@ zum Bestreuen:
 - 1 Ei (Klasse M. Ei und Milch zu gleichen teilen verquirlen)
 - Sesamkörner
 
-## Kochgeschirr
+### Kochgeschirr
 
 - 1 Küchenwaage
 - 1 Mehlsieb
@@ -51,7 +51,7 @@ zum Bestreuen:
 - 1 Backpinsel
 - 1 Kuchengitter
 
-## Zubereitung
+### Zubereitung
 
 - Die Zutaten, die in kühlen Räumen oder Kühlschrank gelagert sind schon einige Zeit vor Verwendung herausnehmen und auf Zimmertemperatur erwärmen.
 - Alle Zutaten genau abwiegen.
@@ -72,7 +72,7 @@ zum Bestreuen:
 - Für weitere 5 bis 10 Minuten fertig backen.
 - Dann auf ein Backgitter legen und auskühlen lassen.
 
-## Varianten
+### Varianten
 
 - Die Burgerbrötchen nicht mit Sesam bestreuen sondern natur nur mit Ei-Milchmischung bestreichen.
 - Die Buns anstatt mit Sesam mit Mohn oder sonstigen Körnern je nach Lust und Laune bestreuen.

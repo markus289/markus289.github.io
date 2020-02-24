@@ -3,9 +3,9 @@ layout: default
 title: Pizza
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Teig
+### Teig
 
 Zutaten fuer ein Blech:
 
@@ -34,7 +34,7 @@ Zubereitung
 Bei 190°C ca. 45-60 Minuten backen. (Achtung: Andere Angabe war 30 Minuten!)
 
 
-## Belag
+### Belag
 
 Um ein Blech zu belegen reicht:
 

@@ -3,9 +3,9 @@ layout: default
 title: GNOME
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Keyboard layout
+### Keyboard layout
 
 Open `dconf-editor` and look at `org.gnome.desktop.input-sources`. Mine
 currently is set as follows.
@@ -15,7 +15,7 @@ currently is set as follows.
 
 Compare with [X11](/notes/x11/).
 
-## Switching windows
+### Switching windows
 
 GNOME defaults to switching applications instead of windows. In order to
 use `<Alt><Tab>` for switching windows make sure the following settings
@@ -26,7 +26,7 @@ are set.
     $ gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Alt>Tab']"
     $ gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift><Alt>Tab']"
 
-## Terminal
+### Terminal
 
 Use the dark theme variant (no longer required).
 
@@ -40,13 +40,13 @@ Allow `F10` to be used in for example `mc`.
 
     $ gsettings set org.gnome.Terminal.Legacy.Settings menu-accelerator-enabled false
 
-## Desktop icons
+### Desktop icons
 
 Desktop icons can be disabled as follows.
 
     $ gsettings set org.gnome.desktop.background show-desktop-icons false
 
-## gnome-keyring-daemon
+### gnome-keyring-daemon
 
 *Note: As of GNOME 3.28 this is no longer required.*
 

@@ -3,18 +3,16 @@ layout: default
 title: Academic Writing
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Tense and Voice
----------------
+### Tense and Voice
 
 |                   | Introduction                                      | Methods                                                                       | Results                                               | Discussion            |
 |-------------------|---------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------|-----------------------|
 | predominant Tense | Present (because generalization) (not prior work) | Past (research is done)                                                       | Present (presenting at the same time you are writing) | Past, Present, Future |
 | predominant Voice | Active                                            | Passive ("the substance was heated") (we don't matter. not "our HiWi did...") | Active (Figure 4 shows) (not: as shown in Figure 4)   | Active                |
 
-Constructing sentences
-----------------------
+### Constructing sentences
 
 - *Use one idea per sentence.*
 - *Shorten sentences by splitting them into two.*
@@ -33,8 +31,7 @@ Constructing sentences
   If you think you can transmit your thoughts better using passive sentences, then go ahead.
 - *Omit needless words.*
 
-Verbs
------
+### Verbs
 
 One distinctive feature of academic writing is choosing the more formal
 alternative when selecting a verb, noun, or other part of speech.
@@ -51,8 +48,7 @@ Here is an example.
 > According to some biologists, *offering* clear proof of the
 > decreasing numbers of frogs has been difficult. (academic style)
 
-Some Heading
-------------
+### Some Heading
 
 The following are some nonvocabulary-related recommendations for
 maintaining a formal academic writing style.
@@ -129,8 +125,7 @@ maintaining a formal academic writing style.
     | It may be difficult to make a decision about the method that we should use.                                                                         | Choosing the proper method may be difficult.                                  |
     | There are some inorganic materials that can be used by bioengineers in the process of tissue engineering that have been shown to be very promising. | Some inorganic materials used in tissue engineering have shown great promise. |
 
-Words used instead of more everyday words in an academic context
-----------------------------------------------------------------
+### Words used instead of more everyday words in an academic context
 
 | everyday verb           | academic verb   |
 |-------------------------|-----------------|
@@ -153,10 +148,9 @@ Words used instead of more everyday words in an academic context
 | in this way             | thereby         |
 | by which (method)       | whereby         |
 
-A basic lexicon for scientific writing
---------------------------------------
+### A basic lexicon for scientific writing
 
-### Verbs
+#### Verbs
 
 accumulate
 adapt
@@ -229,7 +223,7 @@ vary
 verify
 work
 
-### Nouns
+#### Nouns
 
 absence
 activation
@@ -324,7 +318,7 @@ version
 volunteer
 work
 
-### Adjectives and adverbs
+#### Adjectives and adverbs
 
 able
 active
@@ -375,8 +369,7 @@ simultaneous
 unable
 variable
 
-A Usage Guide for Scientists and Engineers
-------------------------------------------
+### A Usage Guide for Scientists and Engineers
 
 "Usage" refers to the selection of the proper word.
 Some selections are clear-cut.

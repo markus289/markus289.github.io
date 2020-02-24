@@ -4,7 +4,7 @@ title: Recipes
 permalink: /recipes/
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 <ul>
 {% assign recipes = site.recipes | sort_natural: 'title' %}

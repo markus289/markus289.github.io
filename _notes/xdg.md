@@ -3,9 +3,9 @@ layout: default
 title: xdg
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Check the filetype
+### Check the filetype
 
     $ xdg-mime query filetype this.txt
     text/plain
@@ -16,11 +16,11 @@ title: xdg
     $ xdg-mime query filetype $PWD
     inode/directory
 
-## Show the default application
+### Show the default application
 
     $ xdg-mime query default text/plain 
     gvim.desktop
 
-## Change the default application
+### Change the default application
 
     $ xdg-mime default Thunar.desktop inode/directory

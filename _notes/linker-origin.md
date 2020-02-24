@@ -3,7 +3,7 @@ layout: default
 title: Using $ORIGIN in Makefiles
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 [Source](http://blog.linuxgamepublishing.com/tag/linker/)
 

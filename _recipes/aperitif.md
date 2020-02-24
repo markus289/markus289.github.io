@@ -3,7 +3,7 @@ layout: default
 title: Aperitif ohne Alkohol
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 In ein Glas Folgendes nacheinander einfüllen:
 

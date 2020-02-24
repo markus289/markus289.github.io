@@ -3,11 +3,11 @@ layout: default
 title: Mascarponecreme mit Sauerkirschen
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Zubereitungszeit ca. 20 Minuten
 
-## Zutaten für 4 Portionen
+### Zutaten für 4 Portionen
 
 * 250 g Mascarpone
 * 3 EL Maraschino
@@ -19,7 +19,7 @@ Zubereitungszeit ca. 20 Minuten
 * 75 g Amarettini
 * evtl. Minzblättchen zum Garnieren
 
-## Zubereitung
+### Zubereitung
 
 1. Mascarpone, Maraschino, Zucker und Zitronensaft mit dem Mixer
    verrühren.

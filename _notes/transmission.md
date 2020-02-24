@@ -3,7 +3,7 @@ layout: default
 title: Transmission
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Use [Mailgun](https://www.mailgun.com/) to send an email on finished torrent.
 

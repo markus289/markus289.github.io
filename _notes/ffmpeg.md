@@ -3,14 +3,14 @@ layout: default
 title: ffmpeg
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## h.264
+### h.264
 
 General information about encoding h.264 is found on the
 [ffmpeg website](https://trac.ffmpeg.org/wiki/Encode/H.264).
 
-## Screen capture
+### Screen capture
 
 Capturing your screen and microphone (replace `front:CARD=PCH,DEV=0`
 with the correct device listed in `aplay -L`):
@@ -24,7 +24,7 @@ with the correct device listed in `aplay -L`):
 kbit/s. E.g. for a file containing 5.1 audio channels it is 384 and for
 a stereo file 128.
 
-## Convert FLAC to AAC
+### Convert FLAC to AAC
 
 Convert a bunch of flac files to AAC using
 [GNU parallel](http://www.gnu.org/software/parallel/):
@@ -32,7 +32,7 @@ Convert a bunch of flac files to AAC using
      parallel 'ffmpeg -loglevel error -i {} -vn -c:a libfdk_aac \
     -b:a 128k -movflags +faststart {.}.m4a; rm {}' ::: **/*.flac
 
-## Convert audio in MKV to 2.0 AAC
+### Convert audio in MKV to 2.0 AAC
 
 This converts 5.1 audio to 2.0 while increasing the center channel, which
 contains the dialogs.

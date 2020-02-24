@@ -3,10 +3,9 @@ layout: default
 title: Gurobi
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Install
--------
+### Install
 
 *Note*: Adjust paths and versions according to your needs.
 
@@ -19,8 +18,7 @@ Install
     $ python3.6 setup.py install --prefix=$HOME/.local
     $ patchelf --set-rpath ~/.gurobi/gurobi810/linux64/lib ~/.local/lib/python3.6/site-packages/gurobipy/gurobipy.so
 
-Getting a License
------------------
+### Getting a License
 
     $ cd ~/.gurobi/gurobi810/linux64/bin
     $ ./grbgetkey aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
@@ -28,8 +26,7 @@ Getting a License
 Save the license file to `~/.gurobi/gurobi.lic` and set `GRB_LICENSE_FILE` to `~/.gurobi/gurobi.lic`.
 `GUROBI_HOME` does not neet to be set.
 
-Install using `conda`
----------------------
+### Install using `conda`
 
 [(Source)](https://anaconda.org/Gurobi/gurobi)
 

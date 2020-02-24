@@ -3,9 +3,9 @@ layout: default
 title: Exherbo Linux
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Binary packages
+### Binary packages
 
 [(Source)](https://www.clever-cloud.com/blog/engineering/2012/12/20/knowing-your-system---part-5---source-based-distributions-the-binary-way/)
 There shall be two systems, one building packages, the other one using them.
@@ -13,7 +13,7 @@ There shall be two systems, one building packages, the other one using them.
 Both machines should use the same options for all packages, i.e.,
 `/etc/paludis/options.conf` should be equal on both machines.
 
-### Setting up the build host
+#### Setting up the build host
 
 `/etc/paludis/bashrc` shall contain `CFLAGS` that are suitable for both, the
 build host and the client.
@@ -81,7 +81,7 @@ Use something similar to the following in `/etc/rsyncd.conf`.
 
 This completes the setup of the build host.
 
-### Setting up the client
+#### Setting up the client
 
 The client only needs to know about the repository.
 This is done by creating `/etc/paludis/repositories/pbin.conf`.
@@ -94,7 +94,7 @@ This is done by creating `/etc/paludis/repositories/pbin.conf`.
 
 This completes the setup of the client.
 
-### Building and using binary packages
+#### Building and using binary packages
 
 On the build host, binary packages can be build as follows.
 

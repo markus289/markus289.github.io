@@ -3,10 +3,9 @@ layout: default
 title: Fedora Linux
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Using sytemd-networkd
----------------------
+### Using sytemd-networkd
 
     cat << EOF > /etc/systemd/network/80-dhcp.network
     [Match]
@@ -25,8 +24,7 @@ Using sytemd-networkd
     systemctl enable systemd-resolved
     ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
 
-Third party repositories
-------------------------
+### Third party repositories
 
     dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
     dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
@@ -34,23 +32,20 @@ Third party repositories
     dnf config-manager --add-repo=http://negativo17.org/repos/fedora-spotify.repo
     dnf copr enable sergiomb/google-drive-ocamlfuse
 
-Public key for google-chrome-<...>.rpm is not installed
--------------------------------------------------------
+### Public key for google-chrome-<...>.rpm is not installed
 
 [(Source)](https://ask.fedoraproject.org/en/question/56695/public-key-for-google-chrome-unstable-versionrpm-is-not-installed/)
 
     $ sudo rpm --import https://dl-ssl.google.com/linux/linux_signing_key.pub
 
-Disable automatic software updates
-----------------------------------
+### Disable automatic software updates
 
 This seems to be relevant only for the desktop version of Fedora.
 [(Source)](http://vfamilyserver.org/blog/2014/11/disable-background-updates-on-fedora-21-gnome-3-14/)
 
     $ gsettings set org.gnome.software download-updates false
 
-virt-manager PolicyKit
-----------------------
+### virt-manager PolicyKit
 
 [(Source)](https://wiki.libvirt.org/page/SSHPolicyKitSetup)
 
@@ -62,8 +57,7 @@ virt-manager PolicyKit
     ResultInactive=yes
     ResultActive=yes
 
-Minimal install of GNOME
-------------------------
+### Minimal install of GNOME
 
 First, get a list of required packages.
 

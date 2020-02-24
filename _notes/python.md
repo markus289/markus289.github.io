@@ -3,10 +3,9 @@ layout: default
 title: Python
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Install to home directory
--------------------------
+### Install to home directory
 
 Install `pip` to your home directory, if you don't have it installed already and can't do this as root:
 

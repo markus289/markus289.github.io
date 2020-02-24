@@ -3,7 +3,7 @@ layout: default
 title: Open Street Map
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Importing the `planet` into PostgreSQL.
 

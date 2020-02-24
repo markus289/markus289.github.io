@@ -3,7 +3,7 @@ layout: default
 title: Pfannkuchen
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 * 3 Eier
 * 250 g Mehl

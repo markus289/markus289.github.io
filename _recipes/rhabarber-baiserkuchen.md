@@ -3,9 +3,9 @@ layout: default
 title: Rhabarber-Baiserkuchen
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Zutaten
+### Zutaten
 
 Zutaten für ca. 35 Stücke bzw. ein Backblech.
 
@@ -23,7 +23,7 @@ Zutaten für ca. 35 Stücke bzw. ein Backblech.
 - 1 EL Puderzucker
 - Fett für das Backblech
 
-## Zubereitung
+### Zubereitung
 
 1. Rhabarber putzen, waschen, abtropfen lassen und schräg in Scheiben schneiden.
    5 Eier trennen.

@@ -3,7 +3,7 @@ layout: default
 title: Blechkuchen
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 * 3 Eier mit 300g Zucker verrühren.
 * 125ml Milch mit 120g Butter erhitzen (im Topf auf dem Herd oder in der

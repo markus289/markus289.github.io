@@ -3,10 +3,9 @@ layout: default
 title: udev
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Writable USB devices
---------------------
+### Writable USB devices
 
 Put this in `/etc/udev/rules.d/99-nexus.rules` to make a Google Galaxy 5 writeable to the usb group:
 

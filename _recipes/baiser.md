@@ -3,15 +3,15 @@ layout: default
 title: Baiser
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Zutaten
+### Zutaten
 
 * 3 Eiweiß
 * 125 g Zucker
 * Salz
 
-## Zubereitung
+### Zubereitung
 
 - Eiweiß zu Eischnee schlagen
     - Eiweiß in eine Schüssel geben

@@ -3,7 +3,7 @@ layout: default
 title: Debian Linux
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Debian `/etc/apt/sources.list` with updates and backports:
 

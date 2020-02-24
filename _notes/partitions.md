@@ -3,10 +3,9 @@ layout: default
 title: Erasing Partitions
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Erasing Partitions
-------------------
+### Erasing Partitions
 
 Use `wipefs` to erase all parition tables, not only for example a DOS parition table.
 This is especially helpful when there are ISO file systems on an USB stick from `dd`-ing an ISO file.

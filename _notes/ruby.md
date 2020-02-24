@@ -3,10 +3,9 @@ layout: default
 title: Ruby
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Install to home directory
--------------------------
+### Install to home directory
 
 Using `gem` to install a package to your home directory:
 

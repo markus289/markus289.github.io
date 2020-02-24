@@ -3,10 +3,9 @@ layout: default
 title: Chromium
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Useful extensions
------------------
+### Useful extensions
 
 - [Auto History Wipe](https://chrome.google.com/webstore/detail/hdgnienkeomlaeeojaibeicglpoaadnj)
 - [Autoplay No More](https://chrome.google.com/webstore/detail/obiogedpmdnfaldjdjmnbpmhjjfnghnj)
@@ -22,8 +21,7 @@ Useful extensions
 - [Vimium](https://chrome.google.com/webstore/detail/dbepggeogbaibhgnhhndojpepiihcmeb)
 - [Youtube's Annotations No More](https://chrome.google.com/webstore/detail/fajnlldimiiipghabjgnbdidcnkghkgn)
 
-Vimium
-------
+### Vimium
 
 Custom key mappings.
 

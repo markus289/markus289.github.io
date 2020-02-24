@@ -3,7 +3,7 @@ layout: default
 title: systemd
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 `/etc/systemd/network/80-dhcp.network` for using networkd with DHCP.
 

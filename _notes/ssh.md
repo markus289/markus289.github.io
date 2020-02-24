@@ -3,7 +3,7 @@ layout: default
 title: SSH
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Force SSH to use `password` authentication:
 

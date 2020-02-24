@@ -3,9 +3,9 @@ layout: default
 title: OpenBSD
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Network configuration for Hetzner Cloud
+### Network configuration for Hetzner Cloud
 
 `/etc/hostname.vio0`:
 

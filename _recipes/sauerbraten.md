@@ -3,11 +3,11 @@ layout: default
 title: Sauerbraten
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Für 4 Personen.
 
-## Zutaten für die Marinade
+### Zutaten für die Marinade
 
 - 2 Zwiebeln
 - 1 Möhre
@@ -25,7 +25,7 @@ Für 4 Personen.
 Das Fleischstück 3-5 Tage vollständig bedeckt in die Marinade legen und
 kühl stellen.
 
-## Zutaten für die Zubereitung
+### Zutaten für die Zubereitung
 
 - 1 Zwiebel
 - 2 Möhren
@@ -34,7 +34,7 @@ kühl stellen.
 - 200 g Kräuterprinten
 - 50 g Rosinen
 
-## Zubereitung
+### Zubereitung
 
 Braten nach dem Marinieren gut abtrocknen und in heißem Öl von allen
 Seiten anbraten. Eine gehackte Zwiebel und 2 Möhren (kleingeschnitten)

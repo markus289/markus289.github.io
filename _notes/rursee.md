@@ -3,9 +3,9 @@ layout: default
 title: Rursee
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Packliste
+### Packliste
 
 - Schlüssel
 - Spannbettbezug

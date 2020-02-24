@@ -3,7 +3,7 @@ layout: default
 title: Nudelsalat (italienisch)
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 - 250 g Nudeln -- kochen
 - 1 rote Paprikaschote -- in *kleine* Stücke schneiden
@@ -13,7 +13,7 @@ title: Nudelsalat (italienisch)
 
 Alle Zutaten vermischen.
 
-## Marinade
+### Marinade
 
 Die Marinade in einem etwas größeren Gefäß anrühren, z.B. einem
 Litermaß.

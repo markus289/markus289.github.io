@@ -3,9 +3,9 @@ layout: default
 title: Carrot cake
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-## Teig
+### Teig
 
 - 250g weiche Butter
 - 250g Rohrzucker
@@ -18,14 +18,14 @@ title: Carrot cake
 - 1 Prise Salz
 - 2 Teelöffel Zimt
 
-## Frosting
+### Frosting
 
 - 200g Frischkäse
 - 200g Puderzucker
 - Zitronensaft
 - 1 Päckchen Vanillezucker
 
-## Zubereitung
+### Zubereitung
 
 1. Butter und Zucker schaumig rühren
 2. Eier unterrühren, Zimt, Salz, O-Saft

@@ -3,7 +3,7 @@ layout: default
 title: btrfs
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Using a cron job to check the filesystem periodically:
 

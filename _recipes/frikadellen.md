@@ -3,7 +3,7 @@ layout: default
 title: Frikadellen
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 * 250g Hackfleisch (gemischt)
 * 1 scheibe Toast

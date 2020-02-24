@@ -3,7 +3,7 @@ layout: default
 title: Kräuterbutter
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 * 125 Gramm Butter
 * 1 Knoblauchzehe

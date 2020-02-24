@@ -3,10 +3,9 @@ layout: default
 title: badblocks
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Check a hard drive for bad blocks
----------------------------------
+### Check a hard drive for bad blocks
 
 To check a hard disk for bad blocks run (**Warning**: this deletes the
 whole drive):

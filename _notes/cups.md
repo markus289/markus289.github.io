@@ -3,10 +3,9 @@ layout: default
 title: cups
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-Print multiple pages on one sheet
----------------------------------
+### Print multiple pages on one sheet
 
 [(Source)](http://www.cups.org/documentation.php/options.html)
 Print four pages on one sheet, no duplex:
@@ -37,8 +36,7 @@ Valid options are as follows.
     -o page-border=single draw one hairline border around each page
     -o page-border=single-thick draw one 1pt border around each page
 
-Adding Ricoh MP C3001
----------------------
+### Adding Ricoh MP C3001
 
     lpadmin -p MPC3001 -E -v ipp://xxx.xxx.xxx.xxx/printer -P $PWD/MPC3001.ppd
     lpadmin -d MPC3001
