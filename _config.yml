@@ -1,5 +1,4 @@
-title: "markus9445"
-url: "https://markus9445.com"
+title: "markus' site"
 
 collections:
     notes:
@@ -19,5 +18,4 @@ exclude:
     - vendor/gems/
     - vendor/ruby/
 
-theme: jekyll-theme-hacker
-markdown: kramdown
+theme: jekyll-theme-primer
