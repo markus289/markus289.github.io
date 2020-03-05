@@ -15,3 +15,7 @@ title: OpenBSD
     !route add -inet default 172.31.1.1
 
 The address `172.31.1.1` does not change. It is always the same address.
+
+`/etc/mygate`:
+
+    fe80::1%vio0
