@@ -7,15 +7,16 @@ title: Microsoft Windows
 
 ### Putting a Windows ISO on a USB drive
 
-This is tested with Windows 7 and Windows 8 ISO images.
+This is tested with Windows 7, 8, and 10 ISO images.
 
-The partition type must be of type NTFS (`7`) and the partiton needs the bootable flag.
+There are two options to create the file system on the USB drive.
 
-    $ umount /dev/sdb
-    $ fdisk /dev/sdb
-    $ mkfs.ntfs -f /dev/sdb1
+1. A bare partition, i.e. `mkfs.ntfs -f /dev/sdb`
+2. A DOS partition layout, i.e. `mkfs.ntfs -f /dev/sdb1`.
+   Here, the partition type must be of type NTFS (`7`) and the partiton needs the bootable flag.
+
+Then, simply copy the files on the new partiton.
+
     $ mount -o loop,ro windows.iso /mnt/iso
-    $ ntfs-3g /dev/sdb1 /mnt/usb
+    $ ntfs-3g /dev/sdX[1] /mnt/usb
     $ cp -av /mnt/iso/* /mnt/usb
-    $ ms-sys -7 /dev/sdb
-
