@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-REMOTE_HOST=doxy.rite.cc
-REMOTE_DIRECTORY=/var/www/www.rite.cc
+REMOTE_HOST=FIXME
+REMOTE_DIRECTORY=/var/www/fixme
 
 edo()
 {
