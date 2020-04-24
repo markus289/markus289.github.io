@@ -12,7 +12,7 @@ title: Chromium
 - [uBlock Origin](https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 - [Vimium](https://chrome.google.com/webstore/detail/dbepggeogbaibhgnhhndojpepiihcmeb)
 
-### Vimium
+#### Vimium
 
 Custom key mappings.
 
