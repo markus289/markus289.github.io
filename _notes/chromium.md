@@ -25,6 +25,7 @@ Custom key mappings.
 - [Autoplay No More](https://chrome.google.com/webstore/detail/obiogedpmdnfaldjdjmnbpmhjjfnghnj)
 - [Block image](https://chrome.google.com/webstore/detail/block-image/pehaalcefcjfccdpbckoablngfkfgfgj)
 - [cookies.txt](https://chrome.google.com/webstore/detail/njabckikapfpffapmjgojcnbfjonfjfg)
+- [Dark Reader](https://chrome.google.com/webstore/detail/eimadpbcbfnmbkopoojfekhnkhdbieeh)
 - [Empty New Tab Page](https://chrome.google.com/webstore/detail/dpjamkmjmigaoobjbekmfgabipmfilij)
 - [HTTPS Everywhere](https://chrome.google.com/webstore/detail/gcbommkclmclpchllfjekcdonpmejbdp)
 - [MultiPass for HTTP basic authentication](https://chrome.google.com/webstore/detail/enhldmjbphoeibbpdhmjkchohnidgnah)
