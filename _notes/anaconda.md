@@ -5,11 +5,17 @@ title: Anaconda
 
 ## {{ page.title }}
 
+### Install conda on Fedora Linux
+
+    # dnf install conda
+
+There is no need to follow any of the following.
+
 ### Install miniconda in silent mode
 
-[Miniconda](https://conda.io/miniconda.html)
+[Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
-    # curl -O https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    # curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86.sh
     # bash Miniconda3-latest-Linux-x86_64.sh -b -p /opt/miniconda
 
 `-b` denotes batch mode.
