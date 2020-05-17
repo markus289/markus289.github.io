@@ -27,7 +27,7 @@ done
 
 unset p
 
-edo bundle config set --local path vendor/bundle
+edo bundle config set --local deployment true
 edo bundle install
 edo bundle exec jekyll build
 edo find _site -type d -exec chmod 755 {} \;
