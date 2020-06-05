@@ -6,16 +6,29 @@ layout: default
 
   <h2 class="page-heading">Posts</h2>
 
-  <ul class="post-list">
+  <div>
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%-d %B %Y" }}</span>
-
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h3>
-      </li>
+      <div>
+        <span class="post-listing-date">{{ post.date | date: "%F" }}</span>
+        <span><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></span>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
+
+  <h2 class="page-heading">Notes</h2>
+  <div class="div-multi-column">
+  {% assign notes = site.notes | sort_natural: 'title' %}
+  {% for note in notes %}
+    <div><a href="{{ note.url | prepend: site.baseurl }}">{{ note.title }}</a></div>
+  {% endfor %}
+  </div>
+
+  <h2 class="page-heading">Recipes</h2>
+  <div class="div-multi-column">
+  {% assign recipes = site.recipes | sort_natural: 'title' %}
+  {% for recipe in recipes %}
+    <div><a href="{{ recipe.url | prepend: site.baseurl }}">{{ recipe.title }}</a></div>
+  {% endfor %}
+  </div>
 
 </div>

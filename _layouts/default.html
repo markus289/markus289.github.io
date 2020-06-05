@@ -6,7 +6,7 @@
         <meta name="description" content="Mostly notes and recipes, some comments in form of a blog.">
         <meta http-equiv="X-UA-Compatible" content="chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+        <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     </head>
 
     <body>
@@ -14,10 +14,6 @@
 
             <header>
                 <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-                <ul>
-                    <li><a href="{{ site.baseurl }}/notes/">Notes</a></li>
-                    <li><a href="{{ site.baseurl }}/recipes/">Recipes</a></li>
-                </ul>
             </header>
 
             {{ content }}
