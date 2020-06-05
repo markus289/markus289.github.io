@@ -17,26 +17,11 @@ title: Fedora Linux
     [DHCP]
     ClientIdentifier=mac
     EOF
-    systemctl disable network
-    systemctl disable NetworkManager
-    dnf remove NetworkManager
-    systemctl enable systemd-networkd
-    systemctl enable systemd-resolved
-    ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
-
-### Third party repositories
-
-    dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-    dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-    dnf config-manager --add-repo=http://negativo17.org/repos/fedora-multimedia.repo
-    dnf config-manager --add-repo=http://negativo17.org/repos/fedora-spotify.repo
-    dnf copr enable sergiomb/google-drive-ocamlfuse
-
-### Public key for google-chrome-<...>.rpm is not installed
-
-[(Source)](https://ask.fedoraproject.org/en/question/56695/public-key-for-google-chrome-unstable-versionrpm-is-not-installed/)
-
-    $ sudo rpm --import https://dl-ssl.google.com/linux/linux_signing_key.pub
+    systemctl disable --now NetworkManager
+    systemctl mask NetworkManager
+    systemctl enable --now systemd-networkd
+    systemctl enable --now systemd-resolved
+    ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 
 ### Disable automatic software updates
 
@@ -61,7 +46,7 @@ This seems to be relevant only for the desktop version of Fedora.
 
 First, get a list of required packages.
 
-    $ dnf group info GNOME
+    $ dnf group info "GNOME Desktop Environment"
 
 Second, take a look at weak depencies.
 
