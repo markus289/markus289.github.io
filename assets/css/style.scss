@@ -3,6 +3,18 @@
 
 @import "{{ site.theme }}";
 
+.social {
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+.social span a svg {
+	height: 1.5em;
+	margin-top: 2em;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
 .post-listing-date {
 	padding-right: 1em;
 }
