@@ -46,6 +46,14 @@ Desktop icons can be disabled as follows.
 
     $ gsettings set org.gnome.desktop.background show-desktop-icons false
 
+### Fractional Scaling
+
+If scaling in display settings only shows up as `100%`, `200%`, etc., but not
+`125%`, `150%`, etc., you can try to enable fractional scaling manually.
+This only works if you are using a Wayland session, not an X11 session.
+
+    $ gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+
 ### gnome-keyring-daemon
 
 *Note: As of GNOME 3.28 this is no longer required.*
