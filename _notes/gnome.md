@@ -17,34 +17,21 @@ Compare with [X11](/notes/x11/).
 
 ### Switching windows
 
-GNOME defaults to switching applications instead of windows. In order to
-use `<Alt><Tab>` for switching windows make sure the following settings
-are set.
+GNOME defaults to switching applications instead of windows.
+In order to use `<Super><Tab>` for switching windows make sure the following
+settings are set.
 
-    $ gsettings set org.gnome.desktop.wm.keybindings switch-applications "['<Super>Tab']"
-    $ gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward "['<Shift><Super>Tab']"
-    $ gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Alt>Tab']"
-    $ gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift><Alt>Tab']"
+    $ gsettings set org.gnome.desktop.wm.keybindings switch-applications "[]"
+    $ gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward "[]"
+    $ gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Super>Tab']"
+    $ gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift><Super>Tab']"
 
 ### Terminal
 
-Use the dark theme variant (no longer required).
-
-    $ gsettings set org.gnome.Terminal.Legacy.Settings dark-theme true
-
-Instead of the above, use this with GNOME `3.22`, Debian 9 (Strech).
-
-    $ gsettings set org.gnome.Terminal.Legacy.Settings theme-variant dark
-
 Allow `F10` to be used in for example `mc`.
+Also available from `gnome-terminals`'s preferences by now.
 
     $ gsettings set org.gnome.Terminal.Legacy.Settings menu-accelerator-enabled false
-
-### Desktop icons
-
-Desktop icons can be disabled as follows.
-
-    $ gsettings set org.gnome.desktop.background show-desktop-icons false
 
 ### Fractional Scaling
 
