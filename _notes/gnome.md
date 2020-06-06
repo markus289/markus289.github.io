@@ -53,18 +53,3 @@ If scaling in display settings only shows up as `100%`, `200%`, etc., but not
 This only works if you are using a Wayland session, not an X11 session.
 
     $ gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
-
-### gnome-keyring-daemon
-
-*Note: As of GNOME 3.28 this is no longer required.*
-
-The `gnome-keyring-daemon` does not support ED25519 keys, so disable it and use `keychain` to start the default `ssh-agent`.
-
-    $ sudo ln -sf /dev/null /etc/xdg/autostart/gnome-keyring-ssh.desktop
-    $ cat >> ~/.bashrc << EOL
-    if type keychain &>/dev/null ; then
-        if [[ -e "$HOME/.ssh/id_ed25519" ]] ; then
-            eval $(keychain --agents ssh --quiet --eval id_ed25519)
-        fi
-    fi
-    EOL
