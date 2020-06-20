@@ -1,11 +1,28 @@
 ---
 layout: default
-title: OpenBSD
+title: Hetzner
 ---
 
 ## {{ page.title }}
 
-### Network configuration for Hetzner Cloud
+### systemd network configuration for Hetzner Cloud
+
+`/etc/systemd/network/20-static.network`:
+
+    [Match]
+    Name=eth0
+
+    [Network]
+    DHCP=ipv4
+    Address=XXXX:XXXX:XXXX:XXXX::1/64
+    Gateway=fe80::1
+    DNS=1.1.1.1
+    DNS=1.0.0.1
+
+    [DHCPv4]
+    UseDNS=false
+
+### OpenBSD network configuration for Hetzner Cloud
 
 `/etc/hostname.vio0`:
 
