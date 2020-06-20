@@ -7,7 +7,6 @@ title: Firefox
 
 ### Add-ons
 
-- [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
 - [Pinboard Pin](https://addons.mozilla.org/firefox/addon/pinboard-pin/)
 - [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)
 - [Vimium-FF](https://addons.mozilla.org/firefox/addon/vimium-ff/)
@@ -26,6 +25,7 @@ Custom key mappings.
 - [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader/)
 - [Google search link fix](https://addons.mozilla.org/firefox/addon/google-search-link-fix/)
 - [HTTPS Everywhere](https://addons.mozilla.org/firefox/addon/https-everywhere/)
+- [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
 - [Image Block](https://addons.mozilla.org/en-US/firefox/addon/image-block/)
 - [Youtube's Annotations No More](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)
 
