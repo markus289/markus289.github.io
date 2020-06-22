@@ -106,7 +106,3 @@ Prevent last window from closing the browser (useful for macOS full screen):
 Load new URLs in background:
 
     browser.tabs.loadDivertedInBackground = true
-
-Disable autoplay of videos:
-
-    media.autoplay.enabled = false
