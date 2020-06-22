@@ -57,10 +57,6 @@ Disable `Enable DRM`-bar:
 
     browser.eme.ui.enabled = false
 
-Disable search buttons in the URL bar:
-
-    browser.urlbar.oneOffSearches = false
-
 #### Firefox on NVIDIA *and* GNOME *and* X11
 
 [Mozilla Bug #1558065](https://bugzilla.mozilla.org/show_bug.cgi?id=1558065#c2)
