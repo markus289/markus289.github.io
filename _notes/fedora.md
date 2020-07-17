@@ -5,24 +5,6 @@ title: Fedora Linux
 
 ## {{ page.title }}
 
-### Using sytemd-networkd
-
-    cat << EOF > /etc/systemd/network/80-dhcp.network
-    [Match]
-    Name=en* wl*
-
-    [Network]
-    DHCP=yes
-
-    [DHCP]
-    ClientIdentifier=mac
-    EOF
-    systemctl disable --now NetworkManager
-    systemctl mask NetworkManager
-    systemctl enable --now systemd-networkd
-    systemctl enable --now systemd-resolved
-    ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
-
 ### virt-manager PolicyKit
 
 [(Source)](https://wiki.libvirt.org/page/SSHPolicyKitSetup)
