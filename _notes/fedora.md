@@ -23,13 +23,6 @@ title: Fedora Linux
     systemctl enable --now systemd-resolved
     ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 
-### Disable automatic software updates
-
-This seems to be relevant only for the desktop version of Fedora.
-[(Source)](http://vfamilyserver.org/blog/2014/11/disable-background-updates-on-fedora-21-gnome-3-14/)
-
-    $ gsettings set org.gnome.software download-updates false
-
 ### virt-manager PolicyKit
 
 [(Source)](https://wiki.libvirt.org/page/SSHPolicyKitSetup)

@@ -40,3 +40,10 @@ If scaling in display settings only shows up as `100%`, `200%`, etc., but not
 This only works if you are using a Wayland session, not an X11 session.
 
     $ gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+
+### Disable automatic software updates
+
+This seems to be relevant only for the desktop version of Fedora.
+[(Source)](http://vfamilyserver.org/blog/2014/11/disable-background-updates-on-fedora-21-gnome-3-14/)
+
+    $ gsettings set org.gnome.software download-updates false
