@@ -106,12 +106,12 @@ for further details.
 This additional AWS account will be attached to the just created AWS
 Organization and is thus subject to the attched SCPs.
 
-Navigate to the `Accounts` tab in the [AWS Organizations Control Panel](https://console.aws.amazon.com/organizations/home).
+While still being logged in with the `Master` account, navigate to the
+`Accounts` tab in the [AWS Organizations Control Panel](https://console.aws.amazon.com/organizations/home).
 Here, click on `Add account` and follow the procedure to `Create [an] account`.
 
 For the account name I tend to use the type of the account.
-This can either be `Development`, `Staging`, `Production`, or `Shared
-Services`.
+This could be `Development`, `Staging`, `Production`, or `Shared Services`.
 
 Note that you cannot use the same email address as has been used for the master
 account.
