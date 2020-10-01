@@ -1,4 +1,5 @@
 title: "markus' site"
+permalink: /:year/:month/:day/:title/
 
 collections:
     notes:
