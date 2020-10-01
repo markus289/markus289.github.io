@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-REMOTE_HOST=FIXME
-REMOTE_DIRECTORY=/var/www/fixme
+S3_BUCKET=website-markus289-com-ahlah6
+S3_PROFILE=website-markus289-com-ahlah6
 
 edo()
 {
@@ -19,7 +19,7 @@ eerror()
     exit 1
 }
 
-for p in bundle find rsync ssh ; do
+for p in aws bundle ; do
     if ! hash ${p} 2>/dev/null; then
         eerror "'${p}' not in \$PATH"
     fi
@@ -30,15 +30,4 @@ unset p
 edo bundle config set --local deployment true
 edo bundle install
 edo bundle exec jekyll build
-edo find _site -type d -exec chmod 755 {} \;
-edo find _site -type f -exec chmod 644 {} \;
-
-if [ ${HOSTNAME} = $(echo ${REMOTE_HOST}|cut -d '.' -f 1) ]; then
-    edo rsync -av --partial --progress --delete _site/ ${REMOTE_DIRECTORY}
-    edo chmod -R go-rwx ${REMOTE_DIRECTORY}
-    edo setfacl -Rm u:nginx:rX ${REMOTE_DIRECTORY}
-else
-    edo rsync -av --partial --progress --delete _site/ ${REMOTE_HOST}:${REMOTE_DIRECTORY}
-    edo ssh ${REMOTE_HOST} chmod -R go-rwx ${REMOTE_DIRECTORY}
-    edo ssh ${REMOTE_HOST} setfacl -Rm u:nginx:rX ${REMOTE_DIRECTORY}
-fi
+edo aws s3 sync _site s3://${S3_BUCKET} --profile ${S3_PROFILE}
