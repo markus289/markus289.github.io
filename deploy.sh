@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 S3_BUCKET=website-markus289-com-ahlah6
-S3_PROFILE=website-markus289-com-ahlah6
 
 edo()
 {
@@ -30,4 +29,4 @@ unset p
 edo bundle config set --local deployment true
 edo bundle install
 edo bundle exec jekyll build
-edo aws s3 sync _site s3://${S3_BUCKET} --profile ${S3_PROFILE}
+edo aws s3 sync _site s3://${S3_BUCKET}
