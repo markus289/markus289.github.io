@@ -15,7 +15,7 @@ There is no need to follow any of the following.
 
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
-    # curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86.sh
+    # curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
     # bash Miniconda3-latest-Linux-x86_64.sh -b -p /opt/miniconda
 
 `-b` denotes batch mode.
