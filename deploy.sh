@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 S3_BUCKET=website-markus289-com-ahlah6
+CLOUDFRONT_DISTRIBUTION=E18O90KKYL96VM
 
 edo()
 {
@@ -30,3 +31,4 @@ edo bundle config set --local deployment true
 edo bundle install
 edo bundle exec jekyll build
 edo aws s3 sync _site s3://${S3_BUCKET}
+edo aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_DISTRIBUTION} --paths "/*"
