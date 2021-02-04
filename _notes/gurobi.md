@@ -15,8 +15,8 @@ title: Gurobi
     $ tar xf gurobi9.1.1_linux64.tar.gz
     $ rm -v gurobi9.1.1_linux64.tar.gz
     $ cd ~/.gurobi/gurobi911/linux64
-    $ python3.8 setup.py install --prefix=$HOME/.local
-    $ patchelf --set-rpath ~/.gurobi/gurobi911/linux64/lib ~/.local/lib/python3.8/site-packages/gurobipy/gurobipy.so
+    $ python3.9 setup.py install --prefix=$HOME/.local
+    $ patchelf --set-rpath ~/.gurobi/gurobi911/linux64/lib ~/.local/lib/python3.9/site-packages/gurobipy/gurobipy.so
 
 ### Getting a License
 
