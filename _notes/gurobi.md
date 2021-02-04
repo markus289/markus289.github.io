@@ -11,16 +11,16 @@ title: Gurobi
 
     $ mkdir -p ~/.gurobi
     $ cd ~/.gurobi
-    $ curl -O https://packages.gurobi.com/9.0/gurobi9.0.2_linux64.tar.gz
-    $ tar xf gurobi9.0.2_linux64.tar.gz
-    $ rm -v gurobi9.0.2_linux64.tar.gz
-    $ cd ~/.gurobi/gurobi902/linux64
+    $ curl -O https://packages.gurobi.com/9.1/gurobi9.1.1_linux64.tar.gz
+    $ tar xf gurobi9.1.1_linux64.tar.gz
+    $ rm -v gurobi9.1.1_linux64.tar.gz
+    $ cd ~/.gurobi/gurobi911/linux64
     $ python3.8 setup.py install --prefix=$HOME/.local
-    $ patchelf --set-rpath ~/.gurobi/gurobi902/linux64/lib ~/.local/lib/python3.8/site-packages/gurobipy/gurobipy.so
+    $ patchelf --set-rpath ~/.gurobi/gurobi911/linux64/lib ~/.local/lib/python3.8/site-packages/gurobipy/gurobipy.so
 
 ### Getting a License
 
-    $ cd ~/.gurobi/gurobi902/linux64/bin
+    $ cd ~/.gurobi/gurobi911/linux64/bin
     $ ./grbgetkey aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
 
 Save the license file to `~/.gurobi/gurobi.lic` and set `GRB_LICENSE_FILE` to `~/.gurobi/gurobi.lic`.
