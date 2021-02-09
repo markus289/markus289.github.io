@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-S3_BUCKET=website-markus289-com-ahlah6
-CLOUDFRONT_DISTRIBUTION=E18O90KKYL96VM
+S3_BUCKET=websitestack-rootbucket582453e3-1wona2vvn6yna
+CLOUDFRONT_DISTRIBUTION=E26S6WN5JFA0Y3
 
 edo()
 {
