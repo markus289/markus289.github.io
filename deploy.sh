@@ -30,5 +30,5 @@ unset p
 edo bundle config set --local deployment true
 edo bundle install
 edo bundle exec jekyll build
-edo aws s3 sync _site s3://${S3_BUCKET}
+edo aws s3 sync --delete _site s3://${S3_BUCKET}
 edo aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_DISTRIBUTION} --paths "/*"
