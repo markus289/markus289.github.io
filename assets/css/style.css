@@ -1,7 +1,16 @@
----
----
+body {
+	font: 18px/1.5 serif;
+	margin: 40px auto;
+	max-width: 48em;
+	line-height: 1.6;
+	font-size: 18px;
+	color: #444;
+	padding: 0 10px;
+}
 
-@import "{{ site.theme }}";
+h1, h2, h3 {
+	line-height: 1.2
+}
 
 .social {
 	margin: 0 auto 0 auto;
