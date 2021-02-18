@@ -11,10 +11,8 @@ collections:
 
 exclude:
     - CNAME
-    - deploy.sh
     - Gemfile
     - Gemfile.lock
+    - Makefile
     - node_modules
     - vendor/
-
-theme: jekyll-theme-primer
