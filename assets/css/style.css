@@ -44,4 +44,7 @@ h3 {
     a:visited {
         color: #ccf;
     }
+    .social span a svg {
+        fill: white;
+    }
 }
