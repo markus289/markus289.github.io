@@ -11,7 +11,7 @@ Open `dconf-editor` and look at `org.gnome.desktop.input-sources`. Mine
 currently is set as follows.
 
     $ gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+altgr-intl')]"
-    $ gsettings set org.gnome.desktop.input-sources xkb-options "['lv3:caps_switch', 'nodeadkeys']"
+    $ gsettings set org.gnome.desktop.input-sources xkb-options "['lv3:caps_switch']"
 
 Compare with [X11](/notes/x11/).
 
