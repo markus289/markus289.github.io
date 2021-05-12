@@ -9,6 +9,7 @@ title: Firefox
 
 - [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader/)
 - [HTTPS Everywhere](https://addons.mozilla.org/firefox/addon/https-everywhere/)
+- [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
 - [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)
 - [Vimium-FF](https://addons.mozilla.org/firefox/addon/vimium-ff/)
 
@@ -24,7 +25,6 @@ Custom key mappings.
 - [Add custom search engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/)
 - [Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)
 - [Google search link fix](https://addons.mozilla.org/firefox/addon/google-search-link-fix/)
-- [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
 - [Image Block](https://addons.mozilla.org/en-US/firefox/addon/image-block/)
 - [Pinboard Pin](https://addons.mozilla.org/firefox/addon/pinboard-pin/)
 - [Youtube's Annotations No More](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)
