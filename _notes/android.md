@@ -28,3 +28,13 @@ This gives you root for setting the time zone as described above.
 
     adb reboot bootloader
     fastboot boot twrp.img
+
+### List installed packages
+
+    adb shell pm list packages
+
+### Uninstall package for current user
+
+This is useful for packages that otherwise cannot be uninstalled.
+
+    adb shell pm uninstall --user 0 com.android.stk
