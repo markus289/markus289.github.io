@@ -34,4 +34,4 @@ Save the license file to `~/.gurobi/gurobi.lic` and set `GRB_LICENSE_FILE` to `~
 
 [(Source)](https://www.cvxpy.org/install/index.html)
 
-    $ conda install -c cvxgrp cvxpy
+    $ conda install -c conda-forge cvxpy
