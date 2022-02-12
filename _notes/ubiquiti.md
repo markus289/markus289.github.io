@@ -26,12 +26,12 @@ Easier instructions are as follows.
    mode.
 1. Start `tftp` on a Linux or Mac.
 
-    $ tftp
-    tftp> connect 192.168.1.32
-    tftp> binary
-    tftp> timeout 60
-    tftp> put firmware.bin
-    Sent 14649771 bytes in 18.6 seconds
+        $ tftp
+        tftp> connect 192.168.1.32
+        tftp> binary
+        tftp> timeout 60
+        tftp> put firmware.bin
+        Sent 14649771 bytes in 18.6 seconds
 
 1. Now wait until the access point's LED stays white.
 
