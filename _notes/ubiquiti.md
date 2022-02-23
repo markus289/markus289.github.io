@@ -16,6 +16,9 @@ that the default address is `192.168.1.{31-33}`.
 In my case, the default IP address for a [UniFi 6 LR](https://eu.store.ui.com/products/unifi-6-long-range-access-point-1)
 was `192.168.1.32`.
 
+It may help to run `nmap -sL 192.168.1.0/24` while `watch arp` in another
+terminal.
+
 Easier instructions are as follows.
 
 1. Set the IP address of your PC to `192.168.1.25/24`.
