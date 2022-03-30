@@ -47,3 +47,10 @@ This seems to be relevant only for the desktop version of Fedora.
 [(Source)](http://vfamilyserver.org/blog/2014/11/disable-background-updates-on-fedora-21-gnome-3-14/)
 
     $ gsettings set org.gnome.software download-updates false
+
+### Span Wallpaper
+
+In order to span one picture across two monitors, first set the wallpaper, then
+run the following command.
+
+    $ gsettings set org.gnome.desktop.background picture-options spanned
