@@ -15,6 +15,14 @@ currently is set as follows.
 
 Compare with [X11](/notes/x11/).
 
+### Disable IBus Emoji Hotkey
+
+The default IBus Emoji Hotkey uses `CTRL+;`.
+This key combination also inputs the current date in LibreOffice.
+In order to restore usage in LibreOffice, disable the usage in IBus.
+
+    $ gsettings set org.freedesktop.ibus.panel.emoji hotkey "@as []"
+
 ### Switching windows
 
 GNOME defaults to switching applications instead of windows.
