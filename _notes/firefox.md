@@ -5,6 +5,14 @@ title: Firefox
 
 ## {{ page.title }}
 
+### Changing the download folder
+
+When changing the download folder in `~/.config/user-dirs.dirs`, it is
+[necessary](https://bugzilla.mozilla.org/show_bug.cgi?id=922719#c20) to have a
+trailing slash.
+Otherwise, Firefox creates a folder `~/Desktop` for each download, regardless
+of where the download is saved.
+
 ### Add-ons
 
 - [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader/)
