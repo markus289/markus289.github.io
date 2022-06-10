@@ -15,6 +15,7 @@ deploy:
 update:
 	bundle config unset --local deployment
 	bundle config set --local path vendor/bundle
+	bundle lock --add-platform ruby
 	bundle update
 	bundle config unset --local path
 	bundle config set --local deployment true
