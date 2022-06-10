@@ -47,6 +47,13 @@ h2:after {
     margin: 0 0 0 20px;
 }
 
+.highlight pre {
+    background-color: rgba(128,128,128,.05);
+    font-size: 0.9em;
+    overflow-x: auto;
+    padding: 4px;
+}
+
 .social {
     margin: 0 auto 0 auto;
     text-align: center;
