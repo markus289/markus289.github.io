@@ -5,6 +5,25 @@ title: Android
 
 ## {{ page.title }}
 
+### Apps
+
+- CovPass: [F-Droid][5] | [Play Store][6]
+- MuPDF mini: [F-Droid][1] | [Play Store][2]
+- NewPipe: [F-Droid][7] | [Homepage][8]
+- Notally: [F-Droid][3] | [Play Store][4]
+- VLC: [F-Droid][9] | [Play Store][10]
+
+[1]: https://f-droid.org/en/packages/com.artifex.mupdf.mini.app/
+[2]: https://play.google.com/store/apps/details?id=com.artifex.mupdf.mini.app
+[3]: https://f-droid.org/en/packages/com.omgodse.notally/
+[4]: https://play.google.com/store/apps/details?id=com.omgodse.notally
+[5]: https://f-droid.org/en/packages/de.rki.covpass.app/
+[6]: https://play.google.com/store/apps/details?id=de.rki.covpass.app
+[7]: https://f-droid.org/en/packages/org.schabi.newpipe/
+[8]: https://newpipe.net/#download
+[9]: https://f-droid.org/en/packages/org.videolan.vlc/
+[10]: https://play.google.com/store/apps/details?id=org.videolan.vlc
+
 ### Android Studio
 
 Android Studio uses the `Alt+Enter` keyboard shortcut, but I use this shortcut already in `xmonad`.
