@@ -7,11 +7,11 @@ title: Android
 
 ### Apps
 
-- CovPass: [F-Droid][5] | [Play Store][6]
-- MuPDF mini: [F-Droid][1] | [Play Store][2]
-- NewPipe: [F-Droid][7] | [Homepage][8]
-- Notally: [F-Droid][3] | [Play Store][4]
-- VLC: [F-Droid][9] | [Play Store][10]
+- CovPass: [F-Droid][5] &#124; [Play Store][6]
+- MuPDF mini: [F-Droid][1] &#124; [Play Store][2]
+- NewPipe: [F-Droid][7] &#124; [Homepage][8]
+- Notally: [F-Droid][3] &#124; [Play Store][4]
+- VLC: [F-Droid][9] &#124; [Play Store][10]
 
 [1]: https://f-droid.org/en/packages/com.artifex.mupdf.mini.app/
 [2]: https://play.google.com/store/apps/details?id=com.artifex.mupdf.mini.app
