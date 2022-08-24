@@ -52,8 +52,25 @@ This gives you root for setting the time zone as described above.
 
     adb shell pm list packages
 
+### Find package name by version
+
+Sometimes it is difficult to identify the package name, which is different from
+the displayed name in Androids UI.
+In these cases searching for a specific version may identify the package.
+
+    adb shell pm list packages --show-versioncode|grep -P '6.*0.*0.*1.*3'
+
+### Example Package names
+
+- AR-Zone: `com.samsung.android.arzone`
+- Bixby: `com.samsung.android.bixby.agent`
+- Galaxy Store: `com.sec.android.app.samsungapps`
+- Game Launcher: `com.samsung.android.game.gamehome`
+- Google Duo: `com.google.android.apps.tachyon`
+- Telekom App Starter: `de.telekom.tsc`
+
 ### Uninstall package for current user
 
 This is useful for packages that otherwise cannot be uninstalled.
 
-    adb shell pm uninstall --user 0 com.android.stk
+    adb shell pm uninstall --user 0 de.telekom.tsc
