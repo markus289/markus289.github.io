@@ -55,8 +55,9 @@ This gives you root for setting the time zone as described above.
 ### Find package name by version
 
 Sometimes it is difficult to identify the package name, which is different from
-the displayed name in Androids UI.
-In these cases searching for a specific version may identify the package.
+the displayed name in the user interface.
+In these cases searching for a specific version, which you can find in the apps
+information, may identify the package.
 
     adb shell pm list packages --show-versioncode|grep -P '6.*0.*0.*1.*3'
 
@@ -67,6 +68,7 @@ In these cases searching for a specific version may identify the package.
 - Galaxy Store: `com.sec.android.app.samsungapps`
 - Game Launcher: `com.samsung.android.game.gamehome`
 - Google Duo: `com.google.android.apps.tachyon`
+- SIM-Toolkit: `com.android.stk`
 - Telekom App Starter: `de.telekom.tsc`
 
 ### Uninstall package for current user
