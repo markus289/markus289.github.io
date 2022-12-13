@@ -11,6 +11,7 @@ title: Android
 - MuPDF mini: [F-Droid][1] &#124; [Play Store][2]
 - NewPipe: [F-Droid][7] &#124; [Homepage][8]
 - Notally: [F-Droid][3] &#124; [Play Store][4]
+- Share to Pinboard: [F-Droid][11] &#124; [Play Store][12]
 - VLC: [F-Droid][9] &#124; [Play Store][10]
 
 [1]: https://f-droid.org/en/packages/com.artifex.mupdf.mini.app/
@@ -23,6 +24,8 @@ title: Android
 [8]: https://newpipe.net/#download
 [9]: https://f-droid.org/en/packages/org.videolan.vlc/
 [10]: https://play.google.com/store/apps/details?id=org.videolan.vlc
+[11]: https://f-droid.org/packages/com.bikodbg.sharetopinboard
+[12]: https://play.google.com/store/apps/details?id=com.bikodbg.sharetopinboard
 
 ### Android Studio
 
