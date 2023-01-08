@@ -5,6 +5,20 @@ title: Hetzner
 
 ## {{ page.title }}
 
+### cloud-init example
+
+    #cloud-config
+    fqdn: asdf.example.com
+    hostname: asdf
+    prefer_fqdn_over_hostname: false
+    users:
+      - name: markus
+        groups: users
+        sudo: ALL=(ALL) NOPASSWD:ALL
+        shell: /bin/zsh
+        ssh_authorized_keys:
+          - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEcUkb1BPmbvz32HVjwv6wwNJaDIo2LhyXIo7dkPBM3w odin
+
 ### systemd network configuration for Hetzner Cloud
 
 `/etc/systemd/network/20-static.network`:
