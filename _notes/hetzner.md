@@ -11,6 +11,8 @@ title: Hetzner
     fqdn: asdf.example.com
     hostname: asdf
     prefer_fqdn_over_hostname: false
+    packages:
+      - zsh
     users:
       - name: markus
         groups: users
