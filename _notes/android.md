@@ -7,25 +7,25 @@ title: Android
 
 ### Apps
 
-- CovPass: [F-Droid][5] &#124; [Play Store][6]
 - MuPDF mini: [F-Droid][1] &#124; [Play Store][2]
 - NewPipe: [F-Droid][7] &#124; [Homepage][8]
 - Notally: [F-Droid][3] &#124; [Play Store][4]
-- Share to Pinboard: [F-Droid][11] &#124; [Play Store][12]
+- Pinkt for Pinboard: [Play Store][11] &#124; [GitHub][12]
+- RadioDroid: [F-Droid][5] &#124; [Play Store][6]
 - VLC: [F-Droid][9] &#124; [Play Store][10]
 
 [1]: https://f-droid.org/en/packages/com.artifex.mupdf.mini.app/
 [2]: https://play.google.com/store/apps/details?id=com.artifex.mupdf.mini.app
 [3]: https://f-droid.org/en/packages/com.omgodse.notally/
 [4]: https://play.google.com/store/apps/details?id=com.omgodse.notally
-[5]: https://f-droid.org/en/packages/de.rki.covpass.app/
-[6]: https://play.google.com/store/apps/details?id=de.rki.covpass.app
+[5]: https://f-droid.org/en/packages/net.programmierecke.radiodroid2/
+[6]: https://play.google.com/store/apps/details?id=net.programmierecke.radiodroid2
 [7]: https://f-droid.org/en/packages/org.schabi.newpipe/
 [8]: https://newpipe.net/#download
 [9]: https://f-droid.org/en/packages/org.videolan.vlc/
 [10]: https://play.google.com/store/apps/details?id=org.videolan.vlc
-[11]: https://f-droid.org/packages/com.bikodbg.sharetopinboard
-[12]: https://play.google.com/store/apps/details?id=com.bikodbg.sharetopinboard
+[11]: https://play.google.com/store/apps/details?id=com.fibelatti.pinboard
+[12]: https://github.com/fibelatti/pinboard-kotlin
 
 ### Android Studio
 
