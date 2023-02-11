@@ -10,7 +10,7 @@ title: Android
 - MuPDF mini: [F-Droid][1] &#124; [Play Store][2]
 - NewPipe: [F-Droid][7] &#124; [Homepage][8]
 - Notally: [F-Droid][3] &#124; [Play Store][4]
-- Pinkt for Pinboard: [Play Store][11] &#124; [GitHub][12]
+- Pinkt for Pinboard: [GitHub][12] &#124; [Play Store][11]
 - RadioDroid: [F-Droid][5] &#124; [Play Store][6]
 - VLC: [F-Droid][9] &#124; [Play Store][10]
 
