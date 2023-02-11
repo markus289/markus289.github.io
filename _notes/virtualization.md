@@ -27,6 +27,7 @@ First, create a network bridge, see [systemd](/notes/systemd/), then follow the
 steps below.
 
     virsh net-list [--all]
+    virsh net-destroy default
     virsh net-undefine default
     cat > bridge.xml <<EOF
     <network>
