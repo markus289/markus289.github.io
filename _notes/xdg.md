@@ -24,3 +24,9 @@ title: xdg
 ### Change the default application
 
     $ xdg-mime default Thunar.desktop inode/directory
+
+### Set default browser
+
+    $ xdg-settings get default-web-browser
+    google-chrome.desktop
+    $ xdg-settings set default-web-browser firefox.desktop
