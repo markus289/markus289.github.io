@@ -37,3 +37,11 @@ Building and copying the SRPMs from the SPEC files.
 Building the RPM packages.
 
     mock -r fedora-33-x86_64 --rebuild --chain --continue ~/SRPMS/*.src.rpm
+
+### VA-API AMD Radeon
+
+[(Source)](https://gnulinux.ch/mesa-mit-h264-h265-und-vc1-decoding-unter-fedora-37)
+
+Enable rpmfusion-nonfree.
+
+    dnf swap mesa-va-drivers mesa-va-drivers-freeworld
