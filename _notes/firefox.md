@@ -16,6 +16,7 @@ of where the download is saved.
 ### Add-ons
 
 - [Asciidoctor.js Live Preview](https://addons.mozilla.org/firefox/addon/asciidoctorjs-live-preview/)
+- [Don't Fuck With Paste](https://addons.mozilla.org/firefox/addon/don-t-fuck-with-paste/)
 - [I still don't care about cookies](https://addons.mozilla.org/firefox/addon/istilldontcareaboutcookies/)
 - [Pinboard Pin](https://addons.mozilla.org/firefox/addon/pinboard-pin/)
 - [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)
