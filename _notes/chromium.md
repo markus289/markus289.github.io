@@ -8,6 +8,7 @@ title: Chromium
 ### Extensions
 
 - [Asciidoctor.js Live Preview](https://chrome.google.com/webstore/detail/iaalpfgpbocpdfblpnhhgllgbdbchmia)
+- [Don't Fuck With Paste](https://chrome.google.com/webstore/detail/dont-f-with-paste/nkgllhigpcljnhoakjkgaieabnkmgdkb)
 - [I still don't care about cookies](https://chrome.google.com/webstore/detail/edibdbjcniadpccecjdfdjjppcpchdlm)
 - [Pinboard Plus](https://chrome.google.com/webstore/detail/mphdppdgoagghpmmhodmfajjlloijnbd)
 - [uBlock Origin](https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm)
