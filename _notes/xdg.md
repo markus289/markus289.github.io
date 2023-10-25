@@ -30,3 +30,8 @@ title: xdg
     $ xdg-settings get default-web-browser
     google-chrome.desktop
     $ xdg-settings set default-web-browser firefox.desktop
+
+### Set default email client
+
+    $ xdg-settings set default-url-scheme-handler mailto \
+    mozilla-thunderbird.desktop
