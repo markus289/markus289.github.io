@@ -7,14 +7,14 @@ title: "markus' site"
 
   <h2 class="page-heading">Posts</h2>
 
-  <div>
+  <table>
     {% for post in site.posts %}
-      <div>
-        <span class="post-listing-date">{{ post.date | date: "%F" }}</span>
-        <span><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></span>
-      </div>
+      <tr>
+        <td class="post-listing-date">{{ post.date | date: "%F" }}</td>
+        <td><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></td>
+      </tr>
     {% endfor %}
-  </div>
+  </table>
 
   <h2 class="page-heading">Notes</h2>
   <div class="div-multi-column">

@@ -66,6 +66,10 @@ h2:after {
     padding-right: 0.25em;
 }
 
+.post-listings-container {
+    display: flex;
+}
+
 .post-listing-date {
     padding-right: 1em;
 }
