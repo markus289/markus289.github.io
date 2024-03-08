@@ -16,7 +16,6 @@ of where the download is saved.
 ### Add-ons
 
 - [Asciidoctor.js Live Preview](https://addons.mozilla.org/firefox/addon/asciidoctorjs-live-preview/)
-- [Don't Fuck With Paste](https://addons.mozilla.org/firefox/addon/don-t-fuck-with-paste/)
 - [I still don't care about cookies](https://addons.mozilla.org/firefox/addon/istilldontcareaboutcookies/)
 - [Pinboard Pin](https://addons.mozilla.org/firefox/addon/pinboard-pin/)
 - [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)
@@ -34,6 +33,7 @@ Custom key mappings.
 - [Add custom search engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/)
 - [Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)
 - [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader/)
+- [Don't Fuck With Paste](https://addons.mozilla.org/firefox/addon/don-t-fuck-with-paste/)
 - [Google search link fix](https://addons.mozilla.org/firefox/addon/google-search-link-fix/)
 - [HTTPS Everywhere](https://addons.mozilla.org/firefox/addon/https-everywhere/) (obsolete by Firefox' HTTPS-Only Mode)
 - [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
@@ -67,6 +67,10 @@ Disable popup asking to allow notifications:
 Disable `Enable DRM`-bar:
 
     browser.eme.ui.enabled = false
+
+Forbid websites to disable pasting, etc.
+
+    dom.event.clipboardevents.enabled = false
 
 #### Maybe Settings
 
