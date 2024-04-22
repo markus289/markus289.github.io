@@ -86,10 +86,6 @@ Enable Resist fingerprinting mode:
 
     privacy.resistFingerprinting = true
 
-Smaller title bar:
-
-    browser.tabs.drawInTitlebar = true
-
 Disable internal PDF viewer:
 
     pdfjs.disabled = true
