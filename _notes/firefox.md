@@ -15,8 +15,6 @@ of where the download is saved.
 
 ### Add-ons
 
-- [Asciidoctor.js Live Preview](https://addons.mozilla.org/firefox/addon/asciidoctorjs-live-preview/)
-- [I still don't care about cookies](https://addons.mozilla.org/firefox/addon/istilldontcareaboutcookies/)
 - [Pinboard Pin](https://addons.mozilla.org/firefox/addon/pinboard-pin/)
 - [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)
 - [Vimium-FF](https://addons.mozilla.org/firefox/addon/vimium-ff/)
@@ -31,12 +29,14 @@ Custom key mappings.
 ### Maybe Add-ons
 
 - [Add custom search engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/)
+- [Asciidoctor.js Live Preview](https://addons.mozilla.org/firefox/addon/asciidoctorjs-live-preview/)
 - [Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)
 - [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader/)
 - [Don't Fuck With Paste](https://addons.mozilla.org/firefox/addon/don-t-fuck-with-paste/)
 - [Google search link fix](https://addons.mozilla.org/firefox/addon/google-search-link-fix/)
 - [HTTPS Everywhere](https://addons.mozilla.org/firefox/addon/https-everywhere/) (obsolete by Firefox' HTTPS-Only Mode)
 - [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
+- [I still don't care about cookies](https://addons.mozilla.org/firefox/addon/istilldontcareaboutcookies/)
 - [Image Block](https://addons.mozilla.org/en-US/firefox/addon/image-block/)
 - [Youtube's Annotations No More](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)
 
