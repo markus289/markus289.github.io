@@ -44,14 +44,6 @@ Custom key mappings.
 
 All settings are applied in `about:config`.
 
-Disable location sharing:
-
-    geo.enabled = false
-
-Disable WebRTC/PeerConnection:
-
-    media.peerconnection.enabled = false
-
 Disable Pocket:
 
     extensions.pocket.enabled = false
@@ -73,6 +65,14 @@ Forbid websites to disable pasting, etc.
     dom.event.clipboardevents.enabled = false
 
 #### Maybe Settings
+
+Disable location sharing:
+
+    geo.enabled = false
+
+Disable WebRTC/PeerConnection:
+
+    media.peerconnection.enabled = false
 
 Disable menu toggle on pressing the *Alt* key:
 
