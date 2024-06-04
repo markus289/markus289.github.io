@@ -48,6 +48,10 @@ Disable `Enable DRM`-bar:
 
     browser.eme.ui.enabled = false
 
+Disable GNOME search provider:
+
+    browser.gnome-search-provider.enabled = false
+
 Do not close the browser with closing the last open tab:
 
     browser.tabs.closeWindowWithLastTab = false
